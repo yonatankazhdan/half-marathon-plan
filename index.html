@@ -60,7 +60,7 @@ section.block { display: flex; flex-direction: column; gap: 14px; }
 .key b { font-family: var(--display); font-weight: 400; font-size: 1.15rem; }
 
 /* phase bar */
-.phases { display: grid; grid-template-columns: 5fr 5fr 3fr 2fr; gap: 3px; }
+.phases { display: grid; grid-template-columns: 5fr 5fr 4fr 2fr; gap: 3px; }
 .phases div { padding: 8px 10px; background: var(--surface); border-top: 4px solid var(--c); font-size: .88rem; min-width: 0; }
 .phases b { display: block; font-size: .95rem; }
 .phases span { color: var(--muted); }
@@ -165,12 +165,12 @@ footer { color: var(--muted); font-size: .88rem; }
   <header class="hero">
     <div class="bib"><span>חצי מרתון</span><b>21.1</b><span>ק״מ</span></div>
     <div>
-      <h1>מ־3 ק״מ לחצי מרתון, עד סוף ינואר</h1>
-      <p>15 שבועות שבונים את הגוף בהדרגה, עם יוגה פעמיים בשבוע, ומסתיימים ב־21.1 ק״מ בהנאה. לוחצים על ״האימון המלא״ מתחת לכל אימון כדי לראות בדיוק מה עושים.</p>
+      <h1>מ־3 ק״מ לחצי מרתון בים המלח</h1>
+      <p>16 שבועות שבונים את הגוף בהדרגה, עם יוגה פעמיים בשבוע, ומסתיימים ב־21.1 ק״מ בהנאה. לוחצים על ״האימון המלא״ מתחת לכל אימון כדי לראות בדיוק מה עושים.</p>
     </div>
     <dl class="facts">
       <div><dt>התחלה</dt><dd>יום א׳ 18.10.2026</dd></div>
-      <div><dt>המרוץ</dt><dd>סוף שבוע 15, בערך 29–30.1.2027</dd></div>
+      <div><dt>המרוץ</dt><dd>מרתון ים המלח, יום ו׳ 5.2.2027</dd></div>
       <div><dt>בשבוע</dt><dd>3 ריצות, 2 כוח קצרים, 2 יוגה</dd></div>
     </dl>
   </header>
@@ -181,16 +181,16 @@ footer { color: var(--muted); font-size: .88rem; }
   </div>
 
   <div class="cal">
-    <a class="btn cal-btn" href="https://yonatankazhdan.github.io/half-marathon-plan/plan.ics">📅 הוספת כל האימונים ליומן</a>
-    <p class="muted">באייפון: פותחים את הדף בספארי, לוחצים על הכפתור, ואז ״הוסף הכול״ ובוחרים יומן. לכל אימון יש תזכורת ב־07:00 בבוקר.</p>
+    <a class="btn cal-btn" href="webcal://yonatankazhdan.github.io/half-marathon-plan/plan.ics">📅 הרשמה ליומן (מתעדכן לבד)</a>
+    <p class="muted">באייפון: פותחים את הדף בספארי, לוחצים על הכפתור ואז ״הירשם״. היומן ״חצי מרתון״ יופיע באפליקציית היומן, וכל שינוי בתוכנית יתעדכן בו לבד. לכל אימון יש תזכורת ב־07:00 בבוקר.</p>
   </div>
 
   <section class="block">
     <div class="phases">
       <div style="--c: var(--easy)"><b>בסיס</b><span>שבועות 1–5 · ריצות קלות</span></div>
       <div style="--c: var(--quality)"><b>בנייה</b><span>שבועות 6–10 · מוסיפים קצב</span></div>
-      <div style="--c: var(--long)"><b>ספציפי</b><span>11–13 · ארוכות עד 17</span></div>
-      <div style="--c: var(--race)"><b>הורדה</b><span>14–15 · רעננות</span></div>
+      <div style="--c: var(--long)"><b>ספציפי</b><span>11–14 · ארוכות עד 17</span></div>
+      <div style="--c: var(--race)"><b>הורדה</b><span>15–16 · רעננות</span></div>
     </div>
     <div class="progress">
       <span><b id="doneCount" class="num">0</b> מתוך <b id="totalCount" class="num">0</b> אימונים הושלמו</span>
@@ -220,7 +220,7 @@ footer { color: var(--muted); font-size: .88rem; }
 
   <section class="block">
     <h2>נפח שבועי</h2>
-    <div class="chart"><svg id="chart" viewBox="0 0 720 200" role="img" aria-label="קילומטרים בכל שבוע, שבועות 1 עד 15"></svg></div>
+    <div class="chart"><svg id="chart" viewBox="0 0 720 200" role="img" aria-label="קילומטרים בכל שבוע, שבועות 1 עד 16"></svg></div>
     <div class="legend">
       <span style="--c: var(--long)">ריצה ארוכה</span>
       <span style="--c: var(--muted)">שאר הריצות</span>
@@ -268,14 +268,14 @@ footer { color: var(--muted); font-size: .88rem; }
       <h3>כללי הבית</h3>
       <ul>
         <li>כאב חד, כאב שמשנה את צורת הריצה או כאב שמחמיר תוך כדי: עוצרים ונחים יומיים. אם הוא נמשך יותר מ־3 ימים, הולכים לפיזיותרפיסט.</li>
-        <li>שבוע שהיה קשה מדי, מחלה או שבוע שהתפספס: חוזרים על השבוע הקודם ולא ״משלימים״. פספסת יותר משבועיים? המרוץ זז לפברואר, וזה בסדר גמור.</li>
+        <li>שבוע שהיה קשה מדי, מחלה או שבוע שהתפספס: חוזרים על השבוע הקודם ולא ״משלימים״. פספסת יותר משבועיים? אפשר לעבור למרתון תל אביב ב־26.2, וזה בסדר גמור.</li>
         <li>נעליים חדשות: את הריצות הראשונות עושים בהן קצרות, ורק אחר כך את הארוכה.</li>
-        <li>עד שבוע 6 בוחרים מרוץ ונרשמים. אם הוא בפברואר, מאריכים את שלב הבנייה בשבוע־שבועיים.</li>
+        <li>המרוץ: מרתון ים המלח, יום ו׳ 5.2.2027. נרשמים ברגע שההרשמה נפתחת, כי המקומות נגמרים מוקדם (ב־2026 כחודשיים לפני).</li>
       </ul>
     </div>
   </section>
 
-  <footer>תוכנית אישית, עודכנה ב־15.10.2026. אפשר לבקש מ־Claude לשנות אותה בכל שלב.</footer>
+  <footer>תוכנית אישית למרתון ים המלח, עודכנה ב־15.10.2026. אפשר לבקש מ־Claude לשנות אותה בכל שלב.</footer>
 </div>
 
 <script>
@@ -324,6 +324,8 @@ footer { color: var(--muted); font-size: .88rem; }
     { t: 'נושמים', ph: 'spec', cut: 1, note: 'שבוע הורדה לפני שני השבועות הכי גדולים.', L: 10, Q: { k: 'strides', km: 5, n: 6 }, E: 5 },
     { t: 'בונים', ph: 'spec', L: 15, Lf: 1,
       Q: { k: 'intervals', km: 7, sum: '4 × 1 ק״מ מהיר', wu: 2, cd: 1, main: ['4 פעמים: 1 ק״מ ' + P('int'), 'בין לבין: 2 דקות ג׳וג קל'] }, E: 6, O: 4 },
+    { t: 'מתקרבים', ph: 'spec', L: 16, Lf: 1,
+      Q: { k: 'racepace', km: 7, sum: '2 × 2 ק״מ בקצב מרוץ', wu: 1.5, cd: 1.5, main: ['2 פעמים: 2 ק״מ בקצב מרוץ ' + P('race'), 'בין לבין: 2 דקות ג׳וג קל', 'מתרגלים את הקצב של יום המרוץ'] }, E: 6, O: 4 },
     { t: 'השיא', ph: 'spec', note: 'שבוע השיא. מכאן רק מורידים.', L: 17, Lf: 1, Ldress: 1,
       Q: { k: 'tempo', km: 8, sum: '5 ק״מ בקצב טמפו', wu: 1.5, cd: 1.5, main: ['5 ק״מ ברצף בקצב טמפו ' + P('tempo')] }, E: 6, O: 4 },
     { t: 'הורדה', ph: 'taper', note: 'פחות ק״מ, אותה רמת אנרגיה. רגליים רעננות זו המטרה.', L: 12,
@@ -368,12 +370,12 @@ footer { color: var(--muted); font-size: .88rem; }
   }
   function raceWo() {
     return wo([['חימום · 20–30 דק׳ לפני הזינוק', ['5 דקות הליכה, ואז 5 דקות ריצה קלה מאוד', '10 נדנודי רגל לכל רגל', '3 האצות קצרות']],
-      ['תוכנית המרוץ · 21.1 ק״מ', ['ק״מ 0–5: קצת לאט יותר מקצב מרוץ. הכי קל שאפשר.', 'ק״מ 5–16: קצב מרוץ ' + P('race'), 'ק״מ 16–21.1: מה שנשאר בטנק', 'מים בכל תחנה. ג׳ל אחרי 45 דקות, ואז בערך כל 35 דקות.']],
+      ['תוכנית המרוץ · 21.1 ק״מ', ['ק״מ 0–5: קצת לאט יותר מקצב מרוץ. הכי קל שאפשר.', 'ק״מ 5–16: קצב מרוץ ' + P('race'), 'ק״מ 16–21.1: מה שנשאר בטנק', 'מים בכל תחנה. ג׳ל אחרי 45 דקות, ואז בערך כל 35 דקות.', 'ים המלח שטוח, אבל יכול להיות חמים גם בפברואר: לשתות טוב כבר יום לפני']],
       ['אחרי', ['10 דקות הליכה', 'לאכול פחמימות וחלבון בתוך שעה', 'שבוע אחרי: רק ריצות קלות']]],
       'שום דבר חדש ביום המרוץ: אותן נעליים, בגדים, ארוחת בוקר וג׳לים כמו בארוכות.');
   }
   function strengthWo(i) {
-    const single = i >= 5, rounds = [0, 1, 3, 7, 10, 13].includes(i) ? 2 : 3;
+    const single = i >= 5, rounds = [0, 1, 3, 7, 10, 14].includes(i) ? 2 : 3;
     const ex = single
       ? [['סקוואט (אפשר עם תיק עם בקבוקי מים על הגב)', '15'], ['לאנג׳ אחורה', '12 לכל רגל'], ['גשר ישבן על רגל אחת', '10 לכל צד'], ['עליות על קצות האצבעות על רגל אחת', '12 לכל צד'], ['דדליפט על רגל אחת, בלי משקל', '8 לכל צד'], ['פלאנק', '45 שנ׳'], ['פלאנק צד', '30 שנ׳ לכל צד']]
       : [['סקוואט', '12'], ['לאנג׳ אחורה', '10 לכל רגל'], ['גשר ישבן', '15'], ['עליות על קצות האצבעות', '15'], ['פלאנק', '30 שנ׳'], ['פלאנק צד', '20 שנ׳ לכל צד'], ['בירד־דוג', '10 לכל צד']];
@@ -397,9 +399,9 @@ footer { color: var(--muted); font-size: .88rem; }
     else out.push(['Q', 'ג׳', QN[q.k], q.k === 'racepace' ? 'race' : 'quality', q.sum, q.km, q.k === 'test' ? null : (q.k === 'racepace' ? 'race' : q.k === 'intervals' ? 'int' : 'tempo'), qualityWo(q)]);
     if (!w.race) out.push(['S1', 'ג׳', 'כוח', 'strength', 'אחרי הריצה, 20 דק׳', '', null, strengthWo(i)]);
     if (w.O) out.push(['O', 'ד׳', 'ריצה קלה · רשות', 'easy', w.O + ' ק״מ, רק אם הגוף מרגיש טוב', w.O, 'easy', easyWo(w.O, 0, 'אפשר לוותר בלי רגשות אשם. זה בונוס.'), 1]);
-    out.push(['E', 'ה׳', w.Es ? 'קלה + האצות' : 'ריצה קלה', 'easy', w.E + ' ק״מ קלים' + (w.Es ? ' + ' + w.Es + ' האצות' : ''), w.E, 'easy', easyWo(w.E, w.Es, w.race ? 'יומיים לפני המרוץ. קצר ומשוחרר.' : '')]);
+    out.push(['E', 'ה׳', w.Es ? 'קלה + האצות' : 'ריצה קלה', 'easy', w.E + ' ק״מ קלים' + (w.Es ? ' + ' + w.Es + ' האצות' : ''), w.E, 'easy', easyWo(w.E, w.Es, w.race ? 'יום לפני המרוץ. קצר ומשוחרר, רק כדי להזיז את הרגליים.' : '')]);
     if (!w.race) out.push(['S2', 'ה׳', 'כוח', 'strength', 'אחרי הריצה, 20 דק׳', '', null, strengthWo(i)]);
-    if (w.race) out.push(['R', 'ו׳/ש׳', 'המרוץ!', 'race', '21.1 ק״מ', 21.1, 'race', raceWo()]);
+    if (w.race) out.push(['R', 'ו׳ 5.2', 'המרוץ!', 'race', '21.1 ק״מ', 21.1, 'race', raceWo()]);
     else out.push(['Y2', 'מוצ״ש', 'יוגה', 'yoga', 'היוגה הרגילה שלך', '', null, yogaSat()]);
     return out;
   }
