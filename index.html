@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>body{margin:0}</style>
+<title>הדרך ל־21.1</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Secular+One&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: one narrow RTL column like a race bib + training log; collapsible weekly cards, each workout expands into its full session */
+:root {
+  --bg: #F2F5F3; --surface: #FFFFFF; --ink: #15211C; --muted: #5A6A63; --line: #D9E1DD;
+  --accent: #2441B8; --accent-soft: #E4E9FB;
+  --easy: #2F8A57; --quality: #C27A12; --long: #1B7488; --race: #C23A6F; --strength: #6F5DB0; --yoga: #7C8A2E; --rest: #8A9893;
+  --display: "Secular One", "Assistant", "Arial Hebrew", sans-serif;
+  --body: "Assistant", "Arial Hebrew", "Segoe UI", sans-serif;
+  --num: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0F1513; --surface: #17201C; --ink: #E6EDE9; --muted: #93A39B; --line: #2A3631;
+  --accent: #93A9FF; --accent-soft: #1E2748;
+  --easy: #5CC08A; --quality: #E8A84A; --long: #4DB6CA; --race: #F0769F; --strength: #A897E8; --yoga: #B8C85A; --rest: #6F7D77;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0F1513; --surface: #17201C; --ink: #E6EDE9; --muted: #93A39B; --line: #2A3631;
+  --accent: #93A9FF; --accent-soft: #1E2748;
+  --easy: #5CC08A; --quality: #E8A84A; --long: #4DB6CA; --race: #F0769F; --strength: #A897E8; --yoga: #B8C85A; --rest: #6F7D77;
+  color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.55; direction: rtl; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: balance; }
+h2 { font-size: 1.55rem; }
+p { margin: 0; }
+.num { font-family: var(--num); font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
+.muted { color: var(--muted); }
+section.block { display: flex; flex-direction: column; gap: 14px; }
+
+/* hero */
+.hero { display: grid; grid-template-columns: auto 1fr; gap: 20px 28px; align-items: end; }
+.bib { border: 2px solid var(--ink); border-radius: 10px; padding: 10px 18px 6px; text-align: center; background: var(--surface); position: relative; }
+.bib::before, .bib::after { content: ""; position: absolute; top: 8px; width: 7px; height: 7px; border-radius: 50%; border: 1.5px solid var(--muted); }
+.bib::before { right: 8px; } .bib::after { left: 8px; }
+.bib b { display: block; font-family: var(--display); font-size: 4.2rem; line-height: 1; font-weight: 400; direction: ltr; }
+.bib span { font-size: .8rem; letter-spacing: .08em; color: var(--muted); }
+.hero h1 { font-size: 2.1rem; line-height: 1.15; }
+.hero p { color: var(--muted); max-width: 46ch; margin-top: 6px; }
+.facts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: .95rem; margin: 0; }
+.facts div { display: flex; gap: 6px; align-items: baseline; }
+.facts dt { color: var(--muted); } .facts dd { margin: 0; font-weight: 700; }
+@media (max-width: 520px) { .hero { grid-template-columns: 1fr; } .bib { justify-self: start; } }
+
+.key { background: var(--accent-soft); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; }
+.key b { font-family: var(--display); font-weight: 400; font-size: 1.15rem; }
+
+/* phase bar */
+.phases { display: grid; grid-template-columns: 5fr 5fr 3fr 2fr; gap: 3px; }
+.phases div { padding: 8px 10px; background: var(--surface); border-top: 4px solid var(--c); font-size: .88rem; min-width: 0; }
+.phases b { display: block; font-size: .95rem; }
+.phases span { color: var(--muted); }
+@media (max-width: 520px) { .phases { grid-template-columns: 1fr 1fr; } }
+
+/* progress */
+.progress { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; }
+.meter { flex: 1 1 220px; height: 10px; background: var(--line); border-radius: 5px; overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--easy); width: 0; transition: width .3s; }
+button { font: inherit; cursor: pointer; }
+.btn { border: 1.5px solid var(--accent); color: var(--accent); background: transparent; padding: 6px 14px; border-radius: 999px; font-weight: 600; }
+.btn:hover { background: var(--accent-soft); }
+.cal { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+a.cal-btn { text-decoration: none; font-size: 1.05rem; padding: 10px 20px; background: var(--accent); color: var(--surface); }
+a.cal-btn:hover { background: var(--accent); opacity: .9; }
+:focus-visible { outline: 2.5px solid var(--accent); outline-offset: 2px; }
+
+/* chart */
+.chart { background: var(--surface); padding: 14px 12px 8px; border-radius: 8px; overflow-x: auto; }
+.chart svg { display: block; width: 100%; min-width: 520px; height: auto; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .85rem; color: var(--muted); }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: var(--c); margin-left: 6px; vertical-align: -1px; }
+
+/* effort table */
+.efforts { display: grid; gap: 0; background: var(--surface); border-radius: 8px; overflow: hidden; }
+.effort { display: grid; grid-template-columns: 9.5rem 3.2rem 1fr; gap: 12px; padding: 12px 14px; border-bottom: 1px solid var(--line); align-items: baseline; }
+.effort:last-child { border-bottom: 0; }
+.effort b { display: flex; align-items: center; gap: 8px; }
+.effort b::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c); flex: none; }
+.effort .rpe { color: var(--muted); font-size: .9rem; }
+@media (max-width: 520px) { .effort { grid-template-columns: 1fr auto; } .effort p { grid-column: 1 / -1; } }
+
+/* week template */
+.days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.day { background: var(--surface); padding: 10px 8px; border-top: 4px solid var(--c); font-size: .88rem; min-width: 0; }
+.day b { display: block; font-family: var(--display); font-weight: 400; font-size: 1.1rem; }
+@media (max-width: 620px) { .days { grid-template-columns: 1fr; } .day { display: flex; gap: 12px; align-items: baseline; border-top: 0; border-right: 4px solid var(--c); } .day b { min-width: 2.2rem; } }
+
+/* pace calc */
+.calc { background: var(--surface); border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.calc label { font-weight: 600; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.calc input { font-family: var(--num); font-size: 1.1rem; width: 6.5rem; padding: 6px 10px; border: 1.5px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); direction: ltr; text-align: center; }
+.tag { font-size: .78rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.paces { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.paces div { border-right: 3px solid var(--c); padding: 2px 10px; }
+.paces span { display: block; font-size: .85rem; color: var(--muted); }
+.paces b { font-family: var(--num); font-size: 1.05rem; direction: ltr; unicode-bidi: isolate; }
+.predict { font-size: .95rem; color: var(--muted); }
+.predict b { color: var(--ink); }
+
+/* weeks */
+.weeks { display: flex; flex-direction: column; gap: 12px; }
+.week { background: var(--surface); border-radius: 8px; border: 1.5px solid transparent; scroll-margin-top: 16px; overflow: hidden; }
+.week.now { border-color: var(--accent); }
+.whead { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding: 12px 16px; cursor: pointer; user-select: none; }
+.whead .wn { font-family: var(--display); font-size: 1.9rem; line-height: 1; color: var(--accent); min-width: 2rem; }
+.whead .wt { display: flex; flex-direction: column; min-width: 0; flex: 1 1 10rem; }
+.whead h3 { font-size: 1.2rem; }
+.whead .wt span { font-size: .85rem; color: var(--muted); }
+.whead .cnt { font-family: var(--num); font-size: .85rem; color: var(--muted); }
+.whead .arrow { color: var(--muted); transition: transform .2s; }
+.week.closed .arrow { transform: rotate(90deg); }
+.chip { font-size: .78rem; font-weight: 700; padding: 2px 9px; border-radius: 999px; color: var(--c); border: 1.5px solid var(--c); white-space: nowrap; }
+.chip.now { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.wbody { padding: 0 16px 12px; display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.week.closed .wbody { display: none; }
+.wnote { font-size: .92rem; color: var(--muted); padding-top: 10px; }
+.item { display: grid; grid-template-columns: auto 3.2rem 1fr auto; gap: 2px 10px; align-items: start; padding: 11px 0; border-bottom: 1px dashed var(--line); }
+.item:last-child { border-bottom: 0; }
+.item input { width: 20px; height: 20px; margin: 3px 0 0; accent-color: var(--c); cursor: pointer; }
+.item .d { font-family: var(--display); color: var(--muted); }
+.item label { display: flex; flex-direction: column; gap: 2px; min-width: 0; cursor: pointer; }
+.item .kind { font-size: .8rem; font-weight: 700; color: var(--c); letter-spacing: .02em; }
+.item .what { font-weight: 600; }
+.item .k { font-family: var(--num); font-weight: 700; white-space: nowrap; }
+.item.opt .what { font-weight: 400; }
+.item.done .what, .item.done .k { text-decoration: line-through; color: var(--muted); }
+.pchip { font-family: var(--num); font-size: .8rem; font-weight: 700; padding: 1px 7px; border-radius: 6px; border: 1.5px solid var(--c); color: var(--c); width: fit-content; direction: ltr; unicode-bidi: isolate; }
+.item details { grid-column: 3 / -1; margin-top: 4px; }
+.item summary { cursor: pointer; color: var(--accent); font-size: .9rem; font-weight: 700; width: fit-content; }
+.wo { margin-top: 8px; padding: 10px 12px; border-radius: 8px; background: var(--bg); display: flex; flex-direction: column; gap: 2px; font-size: .95rem; }
+.wo h5 { margin: 8px 0 0; font-size: .8rem; color: var(--muted); font-weight: 700; letter-spacing: .04em; }
+.wo h5:first-child { margin-top: 0; }
+.wo ul { margin: 2px 0 0; padding-inline-start: 1.1rem; display: flex; flex-direction: column; gap: 3px; }
+.wo .sets { font-family: var(--num); font-size: .82rem; color: var(--muted); white-space: nowrap; }
+.wo .note { margin-top: 8px; font-size: .88rem; color: var(--muted); }
+.pz { font-family: var(--num); font-weight: 700; font-size: .9rem; direction: ltr; unicode-bidi: isolate; white-space: nowrap; }
+
+/* lists */
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 620px) { .cols { grid-template-columns: 1fr; } }
+.card { background: var(--surface); border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.card h3 { font-size: 1.15rem; }
+.card ul, .card ol { margin: 0; padding-inline-start: 1.2rem; display: flex; flex-direction: column; gap: 6px; }
+.card li::marker { color: var(--muted); }
+footer { color: var(--muted); font-size: .88rem; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
+
+<div class="wrap" dir="rtl">
+
+  <header class="hero">
+    <div class="bib"><span>חצי מרתון</span><b>21.1</b><span>ק״מ</span></div>
+    <div>
+      <h1>מ־3 ק״מ לחצי מרתון, עד סוף ינואר</h1>
+      <p>15 שבועות שבונים את הגוף בהדרגה, עם יוגה פעמיים בשבוע, ומסתיימים ב־21.1 ק״מ בהנאה. לוחצים על ״האימון המלא״ מתחת לכל אימון כדי לראות בדיוק מה עושים.</p>
+    </div>
+    <dl class="facts">
+      <div><dt>התחלה</dt><dd>יום א׳ 18.10.2026</dd></div>
+      <div><dt>המרוץ</dt><dd>סוף שבוע 15, בערך 29–30.1.2027</dd></div>
+      <div><dt>בשבוע</dt><dd>3 ריצות, 2 כוח קצרים, 2 יוגה</dd></div>
+    </dl>
+  </header>
+
+  <div class="key">
+    <b>הדבר הכי חשוב בתוכנית: להאט</b>
+    <p>היום את רצה 3 ק״מ ב־17–18 דקות, כלומר כ־6:00 לק״מ. זה קצב טוב, אבל מהיר מדי בשביל ריצה קלה, ובגלל זה מעל 3 ק״מ את צריכה הפסקות. הריצות הקלות והארוכות ייעשו בערך ב־6:45–7:15 לק״מ. זה ירגיש איטי מדי בהתחלה, וזה בדיוק מה שיאפשר לך לרוץ רחוק.</p>
+  </div>
+
+  <div class="cal">
+    <a class="btn cal-btn" href="https://yonatankazhdan.github.io/half-marathon-plan/plan.ics">📅 הוספת כל האימונים ליומן</a>
+    <p class="muted">באייפון: פותחים את הדף בספארי, לוחצים על הכפתור, ואז ״הוסף הכול״ ובוחרים יומן. לכל אימון יש תזכורת ב־07:00 בבוקר.</p>
+  </div>
+
+  <section class="block">
+    <div class="phases">
+      <div style="--c: var(--easy)"><b>בסיס</b><span>שבועות 1–5 · ריצות קלות</span></div>
+      <div style="--c: var(--quality)"><b>בנייה</b><span>שבועות 6–10 · מוסיפים קצב</span></div>
+      <div style="--c: var(--long)"><b>ספציפי</b><span>11–13 · ארוכות עד 17</span></div>
+      <div style="--c: var(--race)"><b>הורדה</b><span>14–15 · רעננות</span></div>
+    </div>
+    <div class="progress">
+      <span><b id="doneCount" class="num">0</b> מתוך <b id="totalCount" class="num">0</b> אימונים הושלמו</span>
+      <div class="meter" aria-hidden="true"><i id="meterBar"></i></div>
+      <button class="btn" id="jumpNow" type="button">לשבוע הנוכחי</button>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>מחשבון קצבים</h2>
+    <div class="calc">
+      <label for="t5">זמן ל־5 ק״מ
+        <input id="t5" inputmode="numeric" placeholder="26:00" value="26:00" aria-describedby="t5hint">
+        <span class="tag" id="sampleTag">הערכה</span>
+      </label>
+      <p id="t5hint" class="muted">ההערכה מבוססת על 3 ק״מ ב־15 דקות במאמץ. בשבוע 8 תריצי מבחן 5 ק״מ ותכניסי פה את הזמן האמיתי (דקות:שניות). כל הקצבים באימונים יתעדכנו לבד.</p>
+      <div class="paces" id="paces"></div>
+      <p class="predict" id="predict"></p>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>התוכנית, שבוע אחרי שבוע</h2>
+    <p class="muted">לוחצים על שבוע כדי לפתוח או לסגור אותו. מסמנים כל אימון שהושלם. הסימונים נשמרים בדפדפן הזה במכשיר הזה.</p>
+    <div class="weeks" id="weeks"></div>
+  </section>
+
+  <section class="block">
+    <h2>נפח שבועי</h2>
+    <div class="chart"><svg id="chart" viewBox="0 0 720 200" role="img" aria-label="קילומטרים בכל שבוע, שבועות 1 עד 15"></svg></div>
+    <div class="legend">
+      <span style="--c: var(--long)">ריצה ארוכה</span>
+      <span style="--c: var(--muted)">שאר הריצות</span>
+      <span style="--c: var(--line)">ריצה רביעית (רשות)</span>
+    </div>
+    <p class="muted">שבועות 4, 8 ו־11 הם שבועות הורדה: פחות ק״מ, כדי שהגוף יספוג את מה שבנה.</p>
+  </section>
+
+  <section class="block">
+    <h2>מה כל מאמץ אומר</h2>
+    <p class="muted">רוב הריצות (בערך 80%) הן קלות באמת. זה מה שבונה סיבולת בלי פציעות.</p>
+    <div class="efforts">
+      <div class="effort" style="--c: var(--easy)"><b>קלה / ארוכה</b><span class="rpe num">3–4/10</span><p>מדברת במשפטים מלאים. אם אי אפשר לדבר, מאטים.</p></div>
+      <div class="effort" style="--c: var(--race)"><b>קצב מרוץ</b><span class="rpe num">6/10</span><p>מרגיש יציב ונשלט. אפשר להגיד משפט קצר.</p></div>
+      <div class="effort" style="--c: var(--quality)"><b>טמפו</b><span class="rpe num">7/10</span><p>״קשה בנוחות״. מילים בודדות, אבל אפשר להחזיק 20 דקות.</p></div>
+      <div class="effort" style="--c: var(--quality)"><b>אינטרוולים</b><span class="rpe num">8/10</span><p>קשה, בלי דיבורים. מקטעים קצרים עם התאוששות ביניהם.</p></div>
+      <div class="effort" style="--c: var(--easy)"><b>האצות</b><span class="rpe num">20 שנ׳</span><p>ריצה זריזה וקלילה בסוף ריצה קלה. מהירה, לא ספרינט מלא. הליכה בין אחת לשנייה.</p></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>שבוע רגיל</h2>
+    <div class="days">
+      <div class="day" style="--c: var(--long)"><b>א׳</b>ריצה ארוכה, פותחת את השבוע</div>
+      <div class="day" style="--c: var(--yoga)"><b>ב׳</b>יוגה רגועה להתאוששות</div>
+      <div class="day" style="--c: var(--quality)"><b>ג׳</b>ריצת איכות + כוח 20 דק׳</div>
+      <div class="day" style="--c: var(--rest)"><b>ד׳</b>מנוחה (+ ריצה קלה ברשות משבוע 6)</div>
+      <div class="day" style="--c: var(--easy)"><b>ה׳</b>ריצה קלה + כוח 20 דק׳</div>
+      <div class="day" style="--c: var(--rest)"><b>ו׳</b>מנוחה מלאה</div>
+      <div class="day" style="--c: var(--yoga)"><b>ש׳</b>מוצ״ש: יוגה</div>
+    </div>
+    <p class="muted">אפשר להזיז ימים, רק לא לשים את ריצת האיכות והארוכה ביומיים צמודים. הכוח בא באותם ימים כמו הריצות, כדי שימים קשים יהיו קשים וימים קלים יישארו קלים.</p>
+  </section>
+
+  <section class="cols">
+    <div class="card">
+      <h3>Strava</h3>
+      <ul>
+        <li>מפעילים הודעות קוליות כל ק״מ, כדי לשמוע את הקצב בלי להסתכל על המסך.</li>
+        <li>בודקים את הקצב הממוצע של כל קילומטר, לא את המספר הרגעי שקופץ.</li>
+        <li>בריצה קלה, אם שומעים קצב מהיר מהטווח, מאטים. גם אם זה מרגיש קל.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>כללי הבית</h3>
+      <ul>
+        <li>כאב חד, כאב שמשנה את צורת הריצה או כאב שמחמיר תוך כדי: עוצרים ונחים יומיים. אם הוא נמשך יותר מ־3 ימים, הולכים לפיזיותרפיסט.</li>
+        <li>שבוע שהיה קשה מדי, מחלה או שבוע שהתפספס: חוזרים על השבוע הקודם ולא ״משלימים״. פספסת יותר משבועיים? המרוץ זז לפברואר, וזה בסדר גמור.</li>
+        <li>נעליים חדשות: את הריצות הראשונות עושים בהן קצרות, ורק אחר כך את הארוכה.</li>
+        <li>עד שבוע 6 בוחרים מרוץ ונרשמים. אם הוא בפברואר, מאריכים את שלב הבנייה בשבוע־שבועיים.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>תוכנית אישית, עודכנה ב־15.10.2026. אפשר לבקש מ־Claude לשנות אותה בכל שלב.</footer>
+</div>
+
+<script>
+(function () {
+  const START = new Date(2026, 9, 18);
+  const KEY = 'hm-v3';
+  const $ = (s) => document.querySelector(s);
+  const pad = (n) => String(n).padStart(2, '0');
+  const fmt = (s) => { s = Math.round(s); return Math.floor(s / 60) + ':' + pad(s % 60); };
+  const fmtH = (s) => { s = Math.round(s); return Math.floor(s / 3600) + ':' + pad(Math.floor(s % 3600 / 60)); };
+  const dm = (d) => d.getDate() + '.' + (d.getMonth() + 1);
+  const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+
+  let state = { t5: null, done: {}, open: {} };
+  try { const s = JSON.parse(localStorage.getItem(KEY)); if (s) state = Object.assign(state, s); } catch (e) {}
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} };
+
+  /* ---------- paces ---------- */
+  const halfT = (t5, e) => t5 * Math.pow(21.0975 / 5, e);
+  const Z = {
+    easy:  { n: 'קלה / ארוכה', c: 'easy',    f: (p, t) => [p * 1.3, p * 1.4] },
+    race:  { n: 'קצב מרוץ',    c: 'race',    f: (p, t) => [halfT(t, 1.08) / 21.0975, halfT(t, 1.10) / 21.0975] },
+    tempo: { n: 'טמפו',        c: 'quality', f: (p, t) => [p * 1.04, p * 1.08] },
+    int:   { n: 'אינטרוולים',  c: 'quality', f: (p, t) => [p * 0.97, p * 1.0] }
+  };
+  const P = (z) => '<span class="pz" data-z="' + z + '"></span>';
+
+  /* ---------- plan ---------- */
+  // L = long run km, Lw = walk-break pattern, Lf = fuel practice, Q = Tuesday run, E = Thursday easy km, Es = strides on Thursday, O = optional Friday km
+  const W = [
+    { t: 'צעדים ראשונים', ph: 'base', note: 'המטרה היחידה השבוע: להופיע לשלוש ריצות ולהתרגל לקצב איטי יותר.', L: 5, Lw: '8 דקות ריצה + דקה הליכה, וחוזר חלילה', Q: { k: 'easy', km: 3 }, E: 3 },
+    { t: 'מתרגלים לקצב', ph: 'base', L: 6, Lw: '8 דקות ריצה + דקה הליכה, וחוזר חלילה', Q: { k: 'easy', km: 3 }, E: 3 },
+    { t: 'פחות הליכה', ph: 'base', L: 7, Lw: 'לרוץ ברצף. אם צריך, דקת הליכה כל 10 דקות', Q: { k: 'easy', km: 4 }, E: 3 },
+    { t: 'שבוע הורדה', ph: 'base', cut: 1, note: 'פחות ק״מ. מרגישה שיש עוד כוח? מצוין, זה הרעיון.', L: 5, Q: { k: 'easy', km: 3 }, E: 3 },
+    { t: 'האצות ראשונות', ph: 'base', L: 8, Q: { k: 'strides', km: 4, n: 4 }, E: 4 },
+    { t: 'נכנסים לקצב', ph: 'build', note: 'שלב הבנייה מתחיל. הכוח עובר לגרסה על רגל אחת, ואפשר להוסיף ריצה רביעית קלה ביום ד׳.', L: 9,
+      Q: { k: 'fartlek', km: 5, sum: '6 × דקה מהיר', wu: 1.5, cd: 1, main: ['6 פעמים: דקה מהיר ' + P('tempo') + ', ואז 2 דקות ריצה קלה מאוד', 'הכול ריצה רציפה, בלי לעצור'] }, E: 4, O: 3 },
+    { t: 'טמפו ראשון', ph: 'build', L: 10,
+      Q: { k: 'tempo', km: 6, sum: '2 ק״מ בקצב טמפו', wu: 2, cd: 2, main: ['2 ק״מ ברצף בקצב טמפו ' + P('tempo')] }, E: 5, O: 3 },
+    { t: 'מבחן 5 ק״מ', ph: 'build', cut: 1, note: 'שבוע הורדה עם מבחן. את הזמן מכניסים במחשבון למעלה, וכל הקצבים מתעדכנים.', L: 7,
+      Q: { k: 'test', km: 7, sum: '5 ק״מ במאמץ מלא', wu: 1, cd: 1, main: ['5 ק״מ במאמץ חזק ואחיד, על מסלול שטוח', 'לא לפתוח מהר מדי: הקילומטר הראשון בערך ' + P('int'), 'בסוף להכניס את הזמן במחשבון בראש הדף'] }, E: 4 },
+    { t: 'אינטרוולים', ph: 'build', L: 12, Lf: 1,
+      Q: { k: 'intervals', km: 6, sum: '5 × 2 דקות מהיר', wu: 2, cd: 1.5, main: ['5 פעמים: 2 דקות מהיר ' + P('int'), 'בין לבין: 2 דקות ג׳וג קל מאוד או הליכה'] }, E: 5, O: 3 },
+    { t: 'מתרגלים אנרגיה', ph: 'build', L: 13, Lf: 1,
+      Q: { k: 'tempo', km: 7, sum: '3 ק״מ בקצב טמפו', wu: 2, cd: 2, main: ['3 ק״מ ברצף בקצב טמפו ' + P('tempo')] }, E: 5, O: 4 },
+    { t: 'נושמים', ph: 'spec', cut: 1, note: 'שבוע הורדה לפני שני השבועות הכי גדולים.', L: 10, Q: { k: 'strides', km: 5, n: 6 }, E: 5 },
+    { t: 'בונים', ph: 'spec', L: 15, Lf: 1,
+      Q: { k: 'intervals', km: 7, sum: '4 × 1 ק״מ מהיר', wu: 2, cd: 1, main: ['4 פעמים: 1 ק״מ ' + P('int'), 'בין לבין: 2 דקות ג׳וג קל'] }, E: 6, O: 4 },
+    { t: 'השיא', ph: 'spec', note: 'שבוע השיא. מכאן רק מורידים.', L: 17, Lf: 1, Ldress: 1,
+      Q: { k: 'tempo', km: 8, sum: '5 ק״מ בקצב טמפו', wu: 1.5, cd: 1.5, main: ['5 ק״מ ברצף בקצב טמפו ' + P('tempo')] }, E: 6, O: 4 },
+    { t: 'הורדה', ph: 'taper', note: 'פחות ק״מ, אותה רמת אנרגיה. רגליים רעננות זו המטרה.', L: 12,
+      Q: { k: 'racepace', km: 6, sum: '3 ק״מ בקצב מרוץ', wu: 1.5, cd: 1.5, main: ['3 ק״מ בקצב מרוץ ' + P('race'), 'צריך להרגיש נשלט. זה הקצב של יום המרוץ'] }, E: 5 },
+    { t: 'שבוע המרוץ', ph: 'taper', note: 'לישון טוב, לשתות, ולא לנסות שום דבר חדש: נעליים, בגדים ואוכל כמו באימונים.', race: 1, L: 8,
+      Q: { k: 'racepace', km: 5, sum: '2 ק״מ בקצב מרוץ', wu: 1.5, cd: 1.5, main: ['2 ק״מ בקצב מרוץ ' + P('race'), 'זה אמור להרגיש קל'] }, E: 3, Es: 4 }
+  ];
+  const PH = { base: ['בסיס', 'easy'], build: ['בנייה', 'quality'], spec: ['ספציפי', 'long'], taper: ['הורדה', 'race'] };
+  const QN = { easy: 'ריצה קלה', strides: 'קלה + האצות', fartlek: 'פארטלק', tempo: 'טמפו', intervals: 'אינטרוולים', test: 'מבחן 5 ק״מ', racepace: 'קצב מרוץ' };
+
+  /* ---------- workout details ---------- */
+  function wo(sections, note) {
+    return '<details><summary>האימון המלא</summary><div class="wo">' + sections.map(s =>
+      '<h5>' + s[0] + '</h5><ul>' + s[1].map(l => '<li>' + l + '</li>').join('') + '</ul>').join('') +
+      (note ? '<p class="note">' + note + '</p>' : '') + '</div></details>';
+  }
+  const STRETCH = 'מתיחות של 30 שניות: שוקיים, ירך אחורית, כופפי ירך';
+
+  function easyWo(km, n, note) {
+    const main = [km + ' ק״מ בקצב קל ' + P('easy'), 'בקצב שיחה כל הדרך. אם יש ספק, לאט יותר.'];
+    if (n) main.push(n + ' האצות של 20 שניות בסוף, על משטח ישר: מאיצות בהדרגה למהיר וקליל. בין האצה להאצה הולכים דקה.');
+    return wo([['חימום · 5 דק׳', ['3 דקות הליכה מהירה', 'הקילומטר הראשון הכי לאט']], ['עיקרי', main],
+      ['שחרור · 5 דק׳', ['5 דקות הליכה', STRETCH]]], note);
+  }
+  function qualityWo(q) {
+    const wu = [q.wu + ' ק״מ ריצה קלה מאוד ' + P('easy'), 'תרגילי ריצה, פעמיים 20 מ׳ מכל אחד: הרמת ברכיים, עקב לישבן, דילוגים', '3 האצות קצרות של 15 שניות'];
+    const cd = [q.cd + ' ק״מ ריצה קלה', '5 דקות הליכה', STRETCH];
+    const note = q.k === 'test' ? 'מאמץ חזק ואחיד מההתחלה ועד הסוף. אם הקילומטר האחרון הוא הכי מהיר, עשית את זה מושלם.'
+      : 'את המקטעים רצים בקצב שכתוב, לא מהר יותר. בסוף צריך להרגיש שהיה אפשר לעשות עוד אחד.';
+    return wo([['חימום · ' + q.wu + ' ק״מ', wu], ['עיקרי', q.main], ['שחרור · ' + q.cd + ' ק״מ', cd]], note);
+  }
+  function longWo(w) {
+    if (w.race) return easyWo(w.L, 0, 'ריצה קלה ונעימה. אין צורך להתאמץ השבוע.');
+    const main = w.Lw ? [w.L + ' ק״מ: ' + w.Lw, 'קצב הריצה: ' + P('easy') + ' או לאט יותר', 'ההפסקות מתוכננות. הן לא כישלון, הן חלק מהאימון.']
+      : [w.L + ' ק״מ בקצב קל ' + P('easy'), 'בקצב שיחה כל הדרך. אם יש ספק, לאט יותר.'];
+    if (w.L >= 9) main.push('מעל שעה: לוקחים מים (בקבוק או חגורה) או מתכננים מסלול עם ברזייה.');
+    if (w.Lf) main.push('תרגול אנרגיה: ג׳ל או 2 תמרים אחרי 45 דקות, ואז כל 30–40 דקות, עם מים.');
+    if (w.Ldress) main.push('חזרה גנרלית: אותה ארוחת בוקר, נעליים ובגדים כמו ביום המרוץ.');
+    return wo([['חימום · 5 דק׳', ['5 דקות הליכה מהירה', '10 נדנודי רגל קדימה-אחורה ולצדדים, לכל רגל', 'הקילומטר הראשון לאט יותר מקצב קל']],
+      ['עיקרי · ' + w.L + ' ק״מ', main],
+      ['שחרור · 15 דק׳', ['10 דקות הליכה', 'מתיחות 5 דקות: שוקיים, ירך אחורית, ירך קדמית, ישבן', 'לאכול פחמימות וחלבון בתוך שעה']]]);
+  }
+  function raceWo() {
+    return wo([['חימום · 20–30 דק׳ לפני הזינוק', ['5 דקות הליכה, ואז 5 דקות ריצה קלה מאוד', '10 נדנודי רגל לכל רגל', '3 האצות קצרות']],
+      ['תוכנית המרוץ · 21.1 ק״מ', ['ק״מ 0–5: קצת לאט יותר מקצב מרוץ. הכי קל שאפשר.', 'ק״מ 5–16: קצב מרוץ ' + P('race'), 'ק״מ 16–21.1: מה שנשאר בטנק', 'מים בכל תחנה. ג׳ל אחרי 45 דקות, ואז בערך כל 35 דקות.']],
+      ['אחרי', ['10 דקות הליכה', 'לאכול פחמימות וחלבון בתוך שעה', 'שבוע אחרי: רק ריצות קלות']]],
+      'שום דבר חדש ביום המרוץ: אותן נעליים, בגדים, ארוחת בוקר וג׳לים כמו בארוכות.');
+  }
+  function strengthWo(i) {
+    const single = i >= 5, rounds = [0, 1, 3, 7, 10, 13].includes(i) ? 2 : 3;
+    const ex = single
+      ? [['סקוואט (אפשר עם תיק עם בקבוקי מים על הגב)', '15'], ['לאנג׳ אחורה', '12 לכל רגל'], ['גשר ישבן על רגל אחת', '10 לכל צד'], ['עליות על קצות האצבעות על רגל אחת', '12 לכל צד'], ['דדליפט על רגל אחת, בלי משקל', '8 לכל צד'], ['פלאנק', '45 שנ׳'], ['פלאנק צד', '30 שנ׳ לכל צד']]
+      : [['סקוואט', '12'], ['לאנג׳ אחורה', '10 לכל רגל'], ['גשר ישבן', '15'], ['עליות על קצות האצבעות', '15'], ['פלאנק', '30 שנ׳'], ['פלאנק צד', '20 שנ׳ לכל צד'], ['בירד־דוג', '10 לכל צד']];
+    const notes = { 0: 'שבוע ראשון: 2 סבבים בלבד. המטרה היא ללמוד את התרגילים בטכניקה טובה.', 5: 'מהשבוע עוברים לגרסה על רגל אחת. זה מחזק כל רגל לחוד, בדיוק כמו בריצה.' };
+    return wo([['חימום · 2 דק׳', ['מיד אחרי הריצה, כשהגוף עוד חם', '10 נדנודי רגל לכל רגל, 10 סיבובי ירך']],
+      ['עיקרי · ' + rounds + ' סבבים', ex.map((e, k) => (k + 1) + '. ' + e[0] + ' <span class="sets">' + e[1] + '</span>').concat(['30 שניות מנוחה בין תרגילים, 1–2 דקות בין סבבים'])],
+      ['שחרור · 3 דק׳', [STRETCH]]], notes[i] || (rounds === 2 && i > 1 ? 'שבוע קל: 2 סבבים בלבד.' : ''));
+  }
+  const yogaMon = (i) => wo([['מה עושים', ['יוגה רגועה: יין, רסטורטיבית או האטה', 'להתמקד בירכיים, ירך אחורית, שוקיים וגב תחתון', 'בלי פאוור יוגה אינטנסיבית ביום הזה']]], 'יום אחרי הריצה הארוכה המטרה היא שחרור, לא עוד אימון קשה.');
+  const yogaSat = () => wo([['מה עושים', ['היוגה הרגילה שלך, בכל סגנון', 'בלי תנוחות שמשאירות את הרגליים עייפות או כואבות למחרת']]], 'ערב לפני הריצה הארוכה: יוגה מצוינת לשחרור, רק לא עד תשישות.');
+
+  /* ---------- items per week ---------- */
+  // [key, day, kind, color, what, km, zone, details, optional]
+  function items(i) {
+    const w = W[i], q = w.Q, out = [];
+    if (w.race) out.push(['L', 'א׳', 'ריצה קלה', 'easy', w.L + ' ק״מ קלים', w.L, 'easy', longWo(w)]);
+    else out.push(['L', 'א׳', 'ריצה ארוכה', 'long', w.Lw ? w.L + ' ק״מ עם הפסקות הליכה' : w.L + ' ק״מ בקצב קל', w.L, 'easy', longWo(w)]);
+    out.push(['Y1', 'ב׳', 'יוגה', 'yoga', 'יוגה רגועה להתאוששות', '', null, yogaMon(i)]);
+    if (q.k === 'easy') out.push(['Q', 'ג׳', 'ריצה קלה', 'easy', q.km + ' ק״מ קלים', q.km, 'easy', easyWo(q.km)]);
+    else if (q.k === 'strides') out.push(['Q', 'ג׳', 'קלה + האצות', 'easy', q.km + ' ק״מ קלים + ' + q.n + ' האצות', q.km, 'easy', easyWo(q.km, q.n)]);
+    else out.push(['Q', 'ג׳', QN[q.k], q.k === 'racepace' ? 'race' : 'quality', q.sum, q.km, q.k === 'test' ? null : (q.k === 'racepace' ? 'race' : q.k === 'intervals' ? 'int' : 'tempo'), qualityWo(q)]);
+    if (!w.race) out.push(['S1', 'ג׳', 'כוח', 'strength', 'אחרי הריצה, 20 דק׳', '', null, strengthWo(i)]);
+    if (w.O) out.push(['O', 'ד׳', 'ריצה קלה · רשות', 'easy', w.O + ' ק״מ, רק אם הגוף מרגיש טוב', w.O, 'easy', easyWo(w.O, 0, 'אפשר לוותר בלי רגשות אשם. זה בונוס.'), 1]);
+    out.push(['E', 'ה׳', w.Es ? 'קלה + האצות' : 'ריצה קלה', 'easy', w.E + ' ק״מ קלים' + (w.Es ? ' + ' + w.Es + ' האצות' : ''), w.E, 'easy', easyWo(w.E, w.Es, w.race ? 'יומיים לפני המרוץ. קצר ומשוחרר.' : '')]);
+    if (!w.race) out.push(['S2', 'ה׳', 'כוח', 'strength', 'אחרי הריצה, 20 דק׳', '', null, strengthWo(i)]);
+    if (w.race) out.push(['R', 'ו׳/ש׳', 'המרוץ!', 'race', '21.1 ק״מ', 21.1, 'race', raceWo()]);
+    else out.push(['Y2', 'מוצ״ש', 'יוגה', 'yoga', 'היוגה הרגילה שלך', '', null, yogaSat()]);
+    return out;
+  }
+
+  /* ---------- render ---------- */
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const nowIdx = Math.floor((today - START) / 864e5 / 7);
+  const cur = Math.min(Math.max(nowIdx, 0), W.length - 1);
+
+  function render() {
+    $('#weeks').innerHTML = W.map((w, i) => {
+      const s = addDays(START, i * 7), e = addDays(s, 6);
+      const its = items(i);
+      const open = state.open[i] !== undefined ? state.open[i] : i === cur;
+      const km = its.filter(x => x[5] && !x[8]).reduce((a, x) => a + x[5], 0);
+      return '<article class="week' + (i === nowIdx ? ' now' : '') + (open ? '' : ' closed') + '" id="w' + (i + 1) + '" data-w="' + i + '">' +
+        '<div class="whead" tabindex="0" role="button" aria-expanded="' + open + '"><span class="wn num">' + (i + 1) + '</span>' +
+        '<div class="wt"><h3>' + w.t + '</h3><span><span class="num">' + dm(s) + '–' + dm(e) + '</span> · <span class="num">' + +km.toFixed(1) + '</span> ק״מ</span></div>' +
+        '<span class="chip" style="--c: var(--' + PH[w.ph][1] + ')">' + PH[w.ph][0] + '</span>' +
+        (w.cut ? '<span class="chip" style="--c: var(--muted)">הורדה</span>' : '') +
+        (i === nowIdx ? '<span class="chip now">השבוע</span>' : (nowIdx < 0 && i === 0 ? '<span class="chip now">מתחילים ביום א׳</span>' : '')) +
+        '<span class="cnt"></span><span class="arrow" aria-hidden="true">▾</span></div>' +
+        '<div class="wbody">' + (w.note ? '<p class="wnote">' + w.note + '</p>' : '') + its.map(x => row(i, x)).join('') + '</div></article>';
+    }).join('');
+    renderPaces(); tally();
+  }
+  function row(i, x) {
+    const k = i + '-' + x[0], id = 'c' + k, on = !!state.done[k];
+    return '<div class="item' + (on ? ' done' : '') + (x[8] ? ' opt' : '') + '" style="--c: var(--' + x[3] + ')">' +
+      '<input type="checkbox" id="' + id + '" data-k="' + k + '"' + (on ? ' checked' : '') + '>' +
+      '<span class="d">' + x[1] + '</span>' +
+      '<label for="' + id + '"><span class="kind">' + x[2] + '</span><span class="what">' + x[4] + '</span>' +
+      (x[6] ? '<span class="pchip" style="--c: var(--' + Z[x[6]].c + ')" data-z="' + x[6] + '"></span>' : '') + '</label>' +
+      '<span class="k">' + (x[5] ? x[5] + ' ק״מ' : '') + '</span>' + x[7] + '</div>';
+  }
+  function tally() {
+    let tot = 0, d = 0;
+    W.forEach((_, i) => {
+      let t = 0, n = 0;
+      items(i).forEach(x => { if (x[8]) return; t++; if (state.done[i + '-' + x[0]]) n++; });
+      tot += t; d += n;
+      const c = document.querySelector('[data-w="' + i + '"] .cnt'); if (c) c.textContent = n + '/' + t;
+    });
+    $('#doneCount').textContent = d; $('#totalCount').textContent = tot;
+    $('#meterBar').style.width = (100 * d / tot) + '%';
+  }
+
+  function parse(v) { const m = /^\s*(\d{1,2})[:.]([0-5]\d)\s*$/.exec(v || ''); if (!m) return null; const s = +m[1] * 60 + +m[2]; return s >= 900 && s <= 3600 ? s : null; }
+  function renderPaces() {
+    const t = parse($('#t5').value), box = $('#paces');
+    if (!t) { box.innerHTML = '<p class="muted">כתבי את הזמן בפורמט דקות:שניות, למשל 25:40.</p>'; $('#predict').textContent = ''; return; }
+    const p = t / 5;
+    const range = (z) => { const r = Z[z].f(p, t); return fmt(r[0]) + '–' + fmt(r[1]); };
+    box.innerHTML = Object.keys(Z).map(z => '<div style="--c: var(--' + Z[z].c + ')"><span>' + Z[z].n + ' (לק״מ)</span><b>' + range(z) + '</b></div>').join('');
+    $('#predict').innerHTML = 'זמן משוער לחצי, אחרי שהסיבולת תיבנה: <b class="num">' + fmtH(halfT(t, 1.08)) + '–' + fmtH(halfT(t, 1.10)) + '</b>';
+    document.querySelectorAll('[data-z]').forEach(el => { el.textContent = range(el.dataset.z) + ' /ק״מ'; });
+  }
+
+  const weeksEl = $('#weeks');
+  weeksEl.addEventListener('change', (e) => {
+    const k = e.target.dataset.k; if (!k) return;
+    if (e.target.checked) state.done[k] = 1; else delete state.done[k];
+    e.target.closest('.item').classList.toggle('done', e.target.checked);
+    save(); tally();
+  });
+  function toggle(h) {
+    const art = h.closest('.week'), i = +art.dataset.w, open = art.classList.toggle('closed') === false;
+    h.setAttribute('aria-expanded', open); state.open[i] = open; save();
+  }
+  weeksEl.addEventListener('click', (e) => { const h = e.target.closest('.whead'); if (h) toggle(h); });
+  weeksEl.addEventListener('keydown', (e) => { const h = e.target.closest('.whead'); if (h && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); toggle(h); } });
+
+  const inp = $('#t5');
+  if (state.t5) { inp.value = state.t5; $('#sampleTag').hidden = true; }
+  inp.addEventListener('input', () => {
+    $('#sampleTag').hidden = true;
+    if (parse(inp.value)) { state.t5 = inp.value; save(); }
+    renderPaces();
+  });
+
+  $('#jumpNow').addEventListener('click', () => {
+    const art = document.getElementById('w' + (cur + 1));
+    if (art.classList.contains('closed')) toggle(art.querySelector('.whead'));
+    art.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  if (nowIdx < 0) $('#jumpNow').textContent = 'לשבוע הראשון';
+
+  render();
+
+  /* ---------- chart (week 1 on the right, reading direction) ---------- */
+  const svg = $('#chart'), NS = 'http://www.w3.org/2000/svg';
+  const L = 34, R = 706, TOP = 14, BOT = 172, MAX = 40, bw = (R - L) / W.length;
+  const y = (v) => BOT - (v / MAX) * (BOT - TOP);
+  const el = (n, a, t) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); if (t != null) e.textContent = t; svg.appendChild(e); return e; };
+  [0, 10, 20, 30, 40].forEach(v => {
+    el('line', { x1: L, x2: R, y1: y(v), y2: y(v), stroke: 'var(--line)', 'stroke-width': 1 });
+    el('text', { x: L - 6, y: y(v) + 4, 'text-anchor': 'end', 'font-size': 11, fill: 'var(--muted)', 'font-family': 'JetBrains Mono, monospace' }, v);
+  });
+  W.forEach((w, i) => {
+    const long = w.race ? 21.1 : w.L;
+    const other = (w.race ? w.L : 0) + w.Q.km + w.E;
+    const opt = w.O || 0;
+    const x = R - (i + 1) * bw + bw * 0.18, wd = bw * 0.64;
+    el('rect', { x, y: y(long), width: wd, height: BOT - y(long), fill: w.race ? 'var(--race)' : 'var(--long)', rx: 1.5 });
+    el('rect', { x, y: y(long + other), width: wd, height: y(long) - y(long + other), fill: 'var(--muted)', rx: 1.5 });
+    if (opt) el('rect', { x, y: y(long + other + opt), width: wd, height: y(long + other) - y(long + other + opt), fill: 'var(--line)', rx: 1.5 });
+    el('text', { x: x + wd / 2, y: y(long + other + opt) - 4, 'text-anchor': 'middle', 'font-size': 10, fill: 'var(--ink)', 'font-family': 'JetBrains Mono, monospace' }, Math.round(long + other));
+    el('text', { x: x + wd / 2, y: BOT + 16, 'text-anchor': 'middle', 'font-size': 11, fill: i === nowIdx ? 'var(--accent)' : 'var(--muted)', 'font-weight': i === nowIdx ? 700 : 400, 'font-family': 'JetBrains Mono, monospace' }, i + 1);
+  });
+  el('text', { x: R, y: 198, 'text-anchor': 'end', 'font-size': 11, fill: 'var(--muted)', 'font-family': 'Assistant, sans-serif' }, 'שבוע');
+})();
+</script>
+
+</html>

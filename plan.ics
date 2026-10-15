@@ -1,0 +1,2255 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//half-marathon-plan//HE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:חצי מרתון
+BEGIN:VEVENT
+UID:hm-w1-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:🏃‍♀️ ש1 · ארוכה 5 ק״מ
+DESCRIPTION:המטרה היחידה השבוע: להופיע לשלוש 
+ ריצות ולהתרגל לקצב איטי יותר.\n\n== ריצה אר
+ וכה · 5 ק״מ עם הפסקות הליכה ==\nחימום · 5 דק
+ ׳:\n• 5 דקות הליכה מהירה\n• 10 נדנודי רגל ק
+ דימה-אחורה ולצדדים\, לכל רגל\n• הקילומטר 
+ הראשון לאט יותר מקצב קל\n\nעיקרי · 5 ק״מ:\n
+ • 5 ק״מ: 8 דקות ריצה + דקה הליכה\, וחוזר חלי
+ לה\n• קצב הריצה: (6:46–7:17 לק״מ) או לאט יותר\
+ n• ההפסקות מתוכננות. הן לא כישלון\, הן חל
+ ק מהאימון.\n\nשחרור · 15 דק׳:\n• 10 דקות הליכ
+ ה\n• מתיחות 5 דקות: שוקיים\, ירך אחורית\, י
+ רך קדמית\, ישבן\n• לאכול פחמימות וחלבון ב
+ תוך שעה\n\nהתוכנית המלאה: https://yonatankazhdan.github
+ .io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש1 · ארוכה 5 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w1-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:🏃‍♀️ ש1 · יוגה רגועה
+DESCRIPTION:המטרה היחידה השבוע: להופיע לשלוש 
+ ריצות ולהתרגל לקצב איטי יותר.\n\n== יוגה · 
+ יוגה רגועה להתאוששות ==\nמה עושים:\n• יוגה
+  רגועה: יין\, רסטורטיבית או האטה\n• להתמק
+ ד בירכיים\, ירך אחורית\, שוקיים וגב תחתון\
+ n• בלי פאוור יוגה אינטנסיבית ביום הזה\n\n
+ יום אחרי הריצה הארוכה המטרה היא שחרור\, ל
+ א עוד אימון קשה.\n\nהתוכנית המלאה: https://yonata
+ nkazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש1 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w1-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:🏃‍♀️ ש1 · קלה 3 ק״מ + כוח
+DESCRIPTION:המטרה היחידה השבוע: להופיע לשלוש 
+ ריצות ולהתרגל לקצב איטי יותר.\n\n== ריצה קל
+ ה · 3 ק״מ קלים ==\nחימום · 5 דק׳:\n• 3 דקות הל
+ יכה מהירה\n• הקילומטר הראשון הכי לאט\n\nע
+ יקרי:\n• 3 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצ
+ ב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n\nשחר
+ ור · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 ש
+ ניות: שוקיים\, ירך אחורית\, כופפי ירך\n\n== כ
+ וח · אחרי הריצה\, 20 דק׳ ==\nחימום · 2 דק׳:\n• 
+ מיד אחרי הריצה\, כשהגוף עוד חם\n• 10 נדנוד
+ י רגל לכל רגל\, 10 סיבובי ירך\n\nעיקרי · 2 סב
+ בים:\n• 1. סקוואט: 12\n• 2. לאנג׳ אחורה: 10 לכל
+  רגל\n• 3. גשר ישבן: 15\n• 4. עליות על קצות הא
+ צבעות: 15\n• 5. פלאנק: 30 שנ׳\n• 6. פלאנק צד: 20 
+ שנ׳ לכל צד\n• 7. בירד־דוג: 10 לכל צד\n• 30 שנ
+ יות מנוחה בין תרגילים\, 1–2 דקות בין סבבי
+ ם\n\nשחרור · 3 דק׳:\n• מתיחות של 30 שניות: שו
+ קיים\, ירך אחורית\, כופפי ירך\n\nשבוע ראשון
+ : 2 סבבים בלבד. המטרה היא ללמוד את התרגילי
+ ם בטכניקה טובה.\n\nהתוכנית המלאה: https://yonatan
+ kazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש1 · קלה 3 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w1-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🏃‍♀️ ש1 · קלה 3 ק״מ + כוח
+DESCRIPTION:המטרה היחידה השבוע: להופיע לשלוש 
+ ריצות ולהתרגל לקצב איטי יותר.\n\n== ריצה קל
+ ה · 3 ק״מ קלים ==\nחימום · 5 דק׳:\n• 3 דקות הל
+ יכה מהירה\n• הקילומטר הראשון הכי לאט\n\nע
+ יקרי:\n• 3 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצ
+ ב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n\nשחר
+ ור · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 ש
+ ניות: שוקיים\, ירך אחורית\, כופפי ירך\n\n== כ
+ וח · אחרי הריצה\, 20 דק׳ ==\nחימום · 2 דק׳:\n• 
+ מיד אחרי הריצה\, כשהגוף עוד חם\n• 10 נדנוד
+ י רגל לכל רגל\, 10 סיבובי ירך\n\nעיקרי · 2 סב
+ בים:\n• 1. סקוואט: 12\n• 2. לאנג׳ אחורה: 10 לכל
+  רגל\n• 3. גשר ישבן: 15\n• 4. עליות על קצות הא
+ צבעות: 15\n• 5. פלאנק: 30 שנ׳\n• 6. פלאנק צד: 20 
+ שנ׳ לכל צד\n• 7. בירד־דוג: 10 לכל צד\n• 30 שנ
+ יות מנוחה בין תרגילים\, 1–2 דקות בין סבבי
+ ם\n\nשחרור · 3 דק׳:\n• מתיחות של 30 שניות: שו
+ קיים\, ירך אחורית\, כופפי ירך\n\nשבוע ראשון
+ : 2 סבבים בלבד. המטרה היא ללמוד את התרגילי
+ ם בטכניקה טובה.\n\nהתוכנית המלאה: https://yonatan
+ kazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש1 · קלה 3 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w1-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🏃‍♀️ ש1 · יוגה
+DESCRIPTION:המטרה היחידה השבוע: להופיע לשלוש 
+ ריצות ולהתרגל לקצב איטי יותר.\n\n== יוגה · 
+ היוגה הרגילה שלך ==\nמה עושים:\n• היוגה הר
+ גילה שלך\, בכל סגנון\n• בלי תנוחות שמשאיר
+ ות את הרגליים עייפות או כואבות למחרת\n\nע
+ רב לפני הריצה הארוכה: יוגה מצוינת לשחרור
+ \, רק לא עד תשישות.\n\nהתוכנית המלאה: https://yon
+ atankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש1 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w2-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:🏃‍♀️ ש2 · ארוכה 6 ק״מ
+DESCRIPTION:== ריצה ארוכה · 6 ק״מ עם הפסקות הליכ
+ ה ==\nחימום · 5 דק׳:\n• 5 דקות הליכה מהירה\n•
+  10 נדנודי רגל קדימה-אחורה ולצדדים\, לכל ר
+ גל\n• הקילומטר הראשון לאט יותר מקצב קל\n\n
+ עיקרי · 6 ק״מ:\n• 6 ק״מ: 8 דקות ריצה + דקה הל
+ יכה\, וחוזר חלילה\n• קצב הריצה: (6:46–7:17 לק
+ ״מ) או לאט יותר\n• ההפסקות מתוכננות. הן ל
+ א כישלון\, הן חלק מהאימון.\n\nשחרור · 15 דק׳:
+ \n• 10 דקות הליכה\n• מתיחות 5 דקות: שוקיים\,
+  ירך אחורית\, ירך קדמית\, ישבן\n• לאכול פח
+ מימות וחלבון בתוך שעה\n\nהתוכנית המלאה: htt
+ ps://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש2 · ארוכה 6 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w2-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:🏃‍♀️ ש2 · יוגה רגועה
+DESCRIPTION:== יוגה · יוגה רגועה להתאוששות ==\nמ
+ ה עושים:\n• יוגה רגועה: יין\, רסטורטיבית א
+ ו האטה\n• להתמקד בירכיים\, ירך אחורית\, שו
+ קיים וגב תחתון\n• בלי פאוור יוגה אינטנסי
+ בית ביום הזה\n\nיום אחרי הריצה הארוכה המט
+ רה היא שחרור\, לא עוד אימון קשה.\n\nהתוכנית
+  המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש2 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w2-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:🏃‍♀️ ש2 · קלה 3 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 3 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 3 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 2 סבבים:\n• 1. סקוואט: 12\n• 2. לא
+ נג׳ אחורה: 10 לכל רגל\n• 3. גשר ישבן: 15\n• 4. 
+ עליות על קצות האצבעות: 15\n• 5. פלאנק: 30 שנ׳
+ \n• 6. פלאנק צד: 20 שנ׳ לכל צד\n• 7. בירד־דוג:
+  10 לכל צד\n• 30 שניות מנוחה בין תרגילים\, 1
+ –2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n• מתיח
+ ות של 30 שניות: שוקיים\, ירך אחורית\, כופפי 
+ ירך\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/hal
+ f-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש2 · קלה 3 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w2-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🏃‍♀️ ש2 · קלה 3 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 3 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 3 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 2 סבבים:\n• 1. סקוואט: 12\n• 2. לא
+ נג׳ אחורה: 10 לכל רגל\n• 3. גשר ישבן: 15\n• 4. 
+ עליות על קצות האצבעות: 15\n• 5. פלאנק: 30 שנ׳
+ \n• 6. פלאנק צד: 20 שנ׳ לכל צד\n• 7. בירד־דוג:
+  10 לכל צד\n• 30 שניות מנוחה בין תרגילים\, 1
+ –2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n• מתיח
+ ות של 30 שניות: שוקיים\, ירך אחורית\, כופפי 
+ ירך\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/hal
+ f-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש2 · קלה 3 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w2-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:🏃‍♀️ ש2 · יוגה
+DESCRIPTION:== יוגה · היוגה הרגילה שלך ==\nמה עוש
+ ים:\n• היוגה הרגילה שלך\, בכל סגנון\n• בלי
+  תנוחות שמשאירות את הרגליים עייפות או כו
+ אבות למחרת\n\nערב לפני הריצה הארוכה: יוגה 
+ מצוינת לשחרור\, רק לא עד תשישות.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש2 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w3-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🏃‍♀️ ש3 · ארוכה 7 ק״מ
+DESCRIPTION:== ריצה ארוכה · 7 ק״מ עם הפסקות הליכ
+ ה ==\nחימום · 5 דק׳:\n• 5 דקות הליכה מהירה\n•
+  10 נדנודי רגל קדימה-אחורה ולצדדים\, לכל ר
+ גל\n• הקילומטר הראשון לאט יותר מקצב קל\n\n
+ עיקרי · 7 ק״מ:\n• 7 ק״מ: לרוץ ברצף. אם צריך\,
+  דקת הליכה כל 10 דקות\n• קצב הריצה: (6:46–7:17 
+ לק״מ) או לאט יותר\n• ההפסקות מתוכננות. הן
+  לא כישלון\, הן חלק מהאימון.\n\nשחרור · 15 דק
+ ׳:\n• 10 דקות הליכה\n• מתיחות 5 דקות: שוקיי
+ ם\, ירך אחורית\, ירך קדמית\, ישבן\n• לאכול 
+ פחמימות וחלבון בתוך שעה\n\nהתוכנית המלאה:
+  https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש3 · ארוכה 7 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w3-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:🏃‍♀️ ש3 · יוגה רגועה
+DESCRIPTION:== יוגה · יוגה רגועה להתאוששות ==\nמ
+ ה עושים:\n• יוגה רגועה: יין\, רסטורטיבית א
+ ו האטה\n• להתמקד בירכיים\, ירך אחורית\, שו
+ קיים וגב תחתון\n• בלי פאוור יוגה אינטנסי
+ בית ביום הזה\n\nיום אחרי הריצה הארוכה המט
+ רה היא שחרור\, לא עוד אימון קשה.\n\nהתוכנית
+  המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש3 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w3-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:🏃‍♀️ ש3 · קלה 4 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 4 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 4 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט: 12\n• 2. לא
+ נג׳ אחורה: 10 לכל רגל\n• 3. גשר ישבן: 15\n• 4. 
+ עליות על קצות האצבעות: 15\n• 5. פלאנק: 30 שנ׳
+ \n• 6. פלאנק צד: 20 שנ׳ לכל צד\n• 7. בירד־דוג:
+  10 לכל צד\n• 30 שניות מנוחה בין תרגילים\, 1
+ –2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n• מתיח
+ ות של 30 שניות: שוקיים\, ירך אחורית\, כופפי 
+ ירך\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/hal
+ f-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש3 · קלה 4 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w3-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:🏃‍♀️ ש3 · קלה 3 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 3 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 3 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט: 12\n• 2. לא
+ נג׳ אחורה: 10 לכל רגל\n• 3. גשר ישבן: 15\n• 4. 
+ עליות על קצות האצבעות: 15\n• 5. פלאנק: 30 שנ׳
+ \n• 6. פלאנק צד: 20 שנ׳ לכל צד\n• 7. בירד־דוג:
+  10 לכל צד\n• 30 שניות מנוחה בין תרגילים\, 1
+ –2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n• מתיח
+ ות של 30 שניות: שוקיים\, ירך אחורית\, כופפי 
+ ירך\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/hal
+ f-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש3 · קלה 3 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w3-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:🏃‍♀️ ש3 · יוגה
+DESCRIPTION:== יוגה · היוגה הרגילה שלך ==\nמה עוש
+ ים:\n• היוגה הרגילה שלך\, בכל סגנון\n• בלי
+  תנוחות שמשאירות את הרגליים עייפות או כו
+ אבות למחרת\n\nערב לפני הריצה הארוכה: יוגה 
+ מצוינת לשחרור\, רק לא עד תשישות.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש3 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w4-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:🏃‍♀️ ש4 · ארוכה 5 ק״מ
+DESCRIPTION:פחות ק״מ. מרגישה שיש עוד כוח? מצוי
+ ן\, זה הרעיון.\n\n== ריצה ארוכה · 5 ק״מ בקצב ק
+ ל ==\nחימום · 5 דק׳:\n• 5 דקות הליכה מהירה\n•
+  10 נדנודי רגל קדימה-אחורה ולצדדים\, לכל ר
+ גל\n• הקילומטר הראשון לאט יותר מקצב קל\n\n
+ עיקרי · 5 ק״מ:\n• 5 ק״מ בקצב קל (6:46–7:17 לק״מ
+ )\n• בקצב שיחה כל הדרך. אם יש ספק\, לאט יות
+ ר.\n\nשחרור · 15 דק׳:\n• 10 דקות הליכה\n• מתיח
+ ות 5 דקות: שוקיים\, ירך אחורית\, ירך קדמית\,
+  ישבן\n• לאכול פחמימות וחלבון בתוך שעה\n\n
+ התוכנית המלאה: https://yonatankazhdan.github.io/half-marathon
+ -plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש4 · ארוכה 5 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w4-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:🏃‍♀️ ש4 · יוגה רגועה
+DESCRIPTION:פחות ק״מ. מרגישה שיש עוד כוח? מצוי
+ ן\, זה הרעיון.\n\n== יוגה · יוגה רגועה להתאו
+ ששות ==\nמה עושים:\n• יוגה רגועה: יין\, רסטו
+ רטיבית או האטה\n• להתמקד בירכיים\, ירך אח
+ ורית\, שוקיים וגב תחתון\n• בלי פאוור יוגה
+  אינטנסיבית ביום הזה\n\nיום אחרי הריצה הא
+ רוכה המטרה היא שחרור\, לא עוד אימון קשה.\n\
+ nהתוכנית המלאה: https://yonatankazhdan.github.io/half-maratho
+ n-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש4 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w4-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🏃‍♀️ ש4 · קלה 3 ק״מ + כוח
+DESCRIPTION:פחות ק״מ. מרגישה שיש עוד כוח? מצוי
+ ן\, זה הרעיון.\n\n== ריצה קלה · 3 ק״מ קלים ==\nח
+ ימום · 5 דק׳:\n• 3 דקות הליכה מהירה\n• הקיל
+ ומטר הראשון הכי לאט\n\nעיקרי:\n• 3 ק״מ בקצב
+  קל (6:46–7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם 
+ יש ספק\, לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות
+  הליכה\n• מתיחות של 30 שניות: שוקיים\, ירך 
+ אחורית\, כופפי ירך\n\n== כוח · אחרי הריצה\, 20
+  דק׳ ==\nחימום · 2 דק׳:\n• מיד אחרי הריצה\, כ
+ שהגוף עוד חם\n• 10 נדנודי רגל לכל רגל\, 10 ס
+ יבובי ירך\n\nעיקרי · 2 סבבים:\n• 1. סקוואט: 12
+ \n• 2. לאנג׳ אחורה: 10 לכל רגל\n• 3. גשר ישבן:
+  15\n• 4. עליות על קצות האצבעות: 15\n• 5. פלאנ
+ ק: 30 שנ׳\n• 6. פלאנק צד: 20 שנ׳ לכל צד\n• 7. בי
+ רד־דוג: 10 לכל צד\n• 30 שניות מנוחה בין תרג
+ ילים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n
+ • מתיחות של 30 שניות: שוקיים\, ירך אחורית\,
+  כופפי ירך\n\nשבוע קל: 2 סבבים בלבד.\n\nהתוכנ
+ ית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש4 · קלה 3 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w4-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🏃‍♀️ ש4 · קלה 3 ק״מ + כוח
+DESCRIPTION:פחות ק״מ. מרגישה שיש עוד כוח? מצוי
+ ן\, זה הרעיון.\n\n== ריצה קלה · 3 ק״מ קלים ==\nח
+ ימום · 5 דק׳:\n• 3 דקות הליכה מהירה\n• הקיל
+ ומטר הראשון הכי לאט\n\nעיקרי:\n• 3 ק״מ בקצב
+  קל (6:46–7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם 
+ יש ספק\, לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות
+  הליכה\n• מתיחות של 30 שניות: שוקיים\, ירך 
+ אחורית\, כופפי ירך\n\n== כוח · אחרי הריצה\, 20
+  דק׳ ==\nחימום · 2 דק׳:\n• מיד אחרי הריצה\, כ
+ שהגוף עוד חם\n• 10 נדנודי רגל לכל רגל\, 10 ס
+ יבובי ירך\n\nעיקרי · 2 סבבים:\n• 1. סקוואט: 12
+ \n• 2. לאנג׳ אחורה: 10 לכל רגל\n• 3. גשר ישבן:
+  15\n• 4. עליות על קצות האצבעות: 15\n• 5. פלאנ
+ ק: 30 שנ׳\n• 6. פלאנק צד: 20 שנ׳ לכל צד\n• 7. בי
+ רד־דוג: 10 לכל צד\n• 30 שניות מנוחה בין תרג
+ ילים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n
+ • מתיחות של 30 שניות: שוקיים\, ירך אחורית\,
+  כופפי ירך\n\nשבוע קל: 2 סבבים בלבד.\n\nהתוכנ
+ ית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש4 · קלה 3 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w4-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:🏃‍♀️ ש4 · יוגה
+DESCRIPTION:פחות ק״מ. מרגישה שיש עוד כוח? מצוי
+ ן\, זה הרעיון.\n\n== יוגה · היוגה הרגילה שלך 
+ ==\nמה עושים:\n• היוגה הרגילה שלך\, בכל סגנ
+ ון\n• בלי תנוחות שמשאירות את הרגליים עיי
+ פות או כואבות למחרת\n\nערב לפני הריצה האר
+ וכה: יוגה מצוינת לשחרור\, רק לא עד תשישות.
+ \n\nהתוכנית המלאה: https://yonatankazhdan.github.io/half-mara
+ thon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש4 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w5-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🏃‍♀️ ש5 · ארוכה 8 ק״מ
+DESCRIPTION:== ריצה ארוכה · 8 ק״מ בקצב קל ==\nחימו
+ ם · 5 דק׳:\n• 5 דקות הליכה מהירה\n• 10 נדנוד
+ י רגל קדימה-אחורה ולצדדים\, לכל רגל\n• הק
+ ילומטר הראשון לאט יותר מקצב קל\n\nעיקרי · 
+ 8 ק״מ:\n• 8 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצ
+ ב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n\nשחר
+ ור · 15 דק׳:\n• 10 דקות הליכה\n• מתיחות 5 דקו
+ ת: שוקיים\, ירך אחורית\, ירך קדמית\, ישבן\n
+ • לאכול פחמימות וחלבון בתוך שעה\n\nהתוכנ
+ ית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש5 · ארוכה 8 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w5-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:🏃‍♀️ ש5 · יוגה רגועה
+DESCRIPTION:== יוגה · יוגה רגועה להתאוששות ==\nמ
+ ה עושים:\n• יוגה רגועה: יין\, רסטורטיבית א
+ ו האטה\n• להתמקד בירכיים\, ירך אחורית\, שו
+ קיים וגב תחתון\n• בלי פאוור יוגה אינטנסי
+ בית ביום הזה\n\nיום אחרי הריצה הארוכה המט
+ רה היא שחרור\, לא עוד אימון קשה.\n\nהתוכנית
+  המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש5 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w5-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:🏃‍♀️ ש5 · קלה 4 ק״מ + כוח
+DESCRIPTION:== קלה + האצות · 4 ק״מ קלים + 4 האצות ==
+ \nחימום · 5 דק׳:\n• 3 דקות הליכה מהירה\n• הק
+ ילומטר הראשון הכי לאט\n\nעיקרי:\n• 4 ק״מ בק
+ צב קל (6:46–7:17 לק״מ)\n• בקצב שיחה כל הדרך. א
+ ם יש ספק\, לאט יותר.\n• 4 האצות של 20 שניות ב
+ סוף\, על משטח ישר: מאיצות בהדרגה למהיר וק
+ ליל. בין האצה להאצה הולכים דקה.\n\nשחרור · 
+ 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 שניות
+ : שוקיים\, ירך אחורית\, כופפי ירך\n\n== כוח · 
+ אחרי הריצה\, 20 דק׳ ==\nחימום · 2 דק׳:\n• מיד 
+ אחרי הריצה\, כשהגוף עוד חם\n• 10 נדנודי רג
+ ל לכל רגל\, 10 סיבובי ירך\n\nעיקרי · 3 סבבים:\
+ n• 1. סקוואט: 12\n• 2. לאנג׳ אחורה: 10 לכל רגל\
+ n• 3. גשר ישבן: 15\n• 4. עליות על קצות האצבעו
+ ת: 15\n• 5. פלאנק: 30 שנ׳\n• 6. פלאנק צד: 20 שנ׳ 
+ לכל צד\n• 7. בירד־דוג: 10 לכל צד\n• 30 שניות 
+ מנוחה בין תרגילים\, 1–2 דקות בין סבבים\n\nש
+ חרור · 3 דק׳:\n• מתיחות של 30 שניות: שוקיים\
+ , ירך אחורית\, כופפי ירך\n\nהתוכנית המלאה: h
+ ttps://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש5 · קלה 4 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w5-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:🏃‍♀️ ש5 · קלה 4 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 4 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 4 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט: 12\n• 2. לא
+ נג׳ אחורה: 10 לכל רגל\n• 3. גשר ישבן: 15\n• 4. 
+ עליות על קצות האצבעות: 15\n• 5. פלאנק: 30 שנ׳
+ \n• 6. פלאנק צד: 20 שנ׳ לכל צד\n• 7. בירד־דוג:
+  10 לכל צד\n• 30 שניות מנוחה בין תרגילים\, 1
+ –2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n• מתיח
+ ות של 30 שניות: שוקיים\, ירך אחורית\, כופפי 
+ ירך\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/hal
+ f-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש5 · קלה 4 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w5-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:🏃‍♀️ ש5 · יוגה
+DESCRIPTION:== יוגה · היוגה הרגילה שלך ==\nמה עוש
+ ים:\n• היוגה הרגילה שלך\, בכל סגנון\n• בלי
+  תנוחות שמשאירות את הרגליים עייפות או כו
+ אבות למחרת\n\nערב לפני הריצה הארוכה: יוגה 
+ מצוינת לשחרור\, רק לא עד תשישות.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש5 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w6-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:🏃‍♀️ ש6 · ארוכה 9 ק״מ
+DESCRIPTION:שלב הבנייה מתחיל. הכוח עובר לגרסה 
+ על רגל אחת\, ואפשר להוסיף ריצה רביעית קלה
+  ביום ד׳.\n\n== ריצה ארוכה · 9 ק״מ בקצב קל ==\n
+ חימום · 5 דק׳:\n• 5 דקות הליכה מהירה\n• 10 נ
+ דנודי רגל קדימה-אחורה ולצדדים\, לכל רגל\n
+ • הקילומטר הראשון לאט יותר מקצב קל\n\nעיק
+ רי · 9 ק״מ:\n• 9 ק״מ בקצב קל (6:46–7:17 לק״מ)\n•
+  בקצב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n
+ • מעל שעה: לוקחים מים (בקבוק או חגורה) או 
+ מתכננים מסלול עם ברזייה.\n\nשחרור · 15 דק׳:\
+ n• 10 דקות הליכה\n• מתיחות 5 דקות: שוקיים\, 
+ ירך אחורית\, ירך קדמית\, ישבן\n• לאכול פחמ
+ ימות וחלבון בתוך שעה\n\nהתוכנית המלאה: https
+ ://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש6 · ארוכה 9 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w6-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:🏃‍♀️ ש6 · יוגה רגועה
+DESCRIPTION:שלב הבנייה מתחיל. הכוח עובר לגרסה 
+ על רגל אחת\, ואפשר להוסיף ריצה רביעית קלה
+  ביום ד׳.\n\n== יוגה · יוגה רגועה להתאוששות 
+ ==\nמה עושים:\n• יוגה רגועה: יין\, רסטורטיב
+ ית או האטה\n• להתמקד בירכיים\, ירך אחורית
+ \, שוקיים וגב תחתון\n• בלי פאוור יוגה אינ
+ טנסיבית ביום הזה\n\nיום אחרי הריצה הארוכה
+  המטרה היא שחרור\, לא עוד אימון קשה.\n\nהתו
+ כנית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש6 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w6-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:🏃‍♀️ ש6 · פארטלק 5 ק״מ + כוח
+DESCRIPTION:שלב הבנייה מתחיל. הכוח עובר לגרסה 
+ על רגל אחת\, ואפשר להוסיף ריצה רביעית קלה
+  ביום ד׳.\n\n== פארטלק · 6 × דקה מהיר ==\nחימום
+  · 1.5 ק״מ:\n• 1.5 ק״מ ריצה קלה מאוד (6:46–7:17 ל
+ ק״מ)\n• תרגילי ריצה\, פעמיים 20 מ׳ מכל אחד: 
+ הרמת ברכיים\, עקב לישבן\, דילוגים\n• 3 האצ
+ ות קצרות של 15 שניות\n\nעיקרי:\n• 6 פעמים: דק
+ ה מהיר (5:24–5:37 לק״מ)\, ואז 2 דקות ריצה קלה מ
+ אוד\n• הכול ריצה רציפה\, בלי לעצור\n\nשחרו
+ ר · 1 ק״מ:\n• 1 ק״מ ריצה קלה\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\nאת המקטעים רצים בקצב שכתוב\,
+  לא מהר יותר. בסוף צריך להרגיש שהיה אפשר 
+ לעשות עוד אחד.\n\n== כוח · אחרי הריצה\, 20 דק׳
+  ==\nחימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגו
+ ף עוד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבוב
+ י ירך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט (אפשר 
+ עם תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳ 
+ אחורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת: 
+ 10 לכל צד\n• 4. עליות על קצות האצבעות על רג
+ ל אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בל
+ י משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנ
+ ק צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תר
+ גילים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\nמהשבוע עוברים לגרסה על רגל 
+ אחת. זה מחזק כל רגל לחוד\, בדיוק כמו בריצה
+ .\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/half-mar
+ athon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש6 · פארטלק 5 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w6-d3@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:🏃‍♀️ ש6 · קלה 3 ק״מ (רשות)
+DESCRIPTION:שלב הבנייה מתחיל. הכוח עובר לגרסה 
+ על רגל אחת\, ואפשר להוסיף ריצה רביעית קלה
+  ביום ד׳.\n\n== ריצה קלה · רשות · 3 ק״מ\, רק אם
+  הגוף מרגיש טוב ==\nחימום · 5 דק׳:\n• 3 דקות 
+ הליכה מהירה\n• הקילומטר הראשון הכי לאט\n\
+ nעיקרי:\n• 3 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בק
+ צב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n\nשח
+ רור · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 
+ שניות: שוקיים\, ירך אחורית\, כופפי ירך\n\nא
+ פשר לוותר בלי רגשות אשם. זה בונוס.\n\nהתוכ
+ נית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש6 · קלה 3 ק״מ (רשות)
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w6-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🏃‍♀️ ש6 · קלה 4 ק״מ + כוח
+DESCRIPTION:שלב הבנייה מתחיל. הכוח עובר לגרסה 
+ על רגל אחת\, ואפשר להוסיף ריצה רביעית קלה
+  ביום ד׳.\n\n== ריצה קלה · 4 ק״מ קלים ==\nחימום
+  · 5 דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר
+  הראשון הכי לאט\n\nעיקרי:\n• 4 ק״מ בקצב קל (6
+ :46–7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספ
+ ק\, לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכ
+ ה\n• מתיחות של 30 שניות: שוקיים\, ירך אחורי
+ ת\, כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==
+ \nחימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף 
+ עוד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי 
+ ירך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט (אפשר עם
+  תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳ אח
+ ורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת: 10 
+ לכל צד\n• 4. עליות על קצות האצבעות על רגל 
+ אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בלי 
+ משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק 
+ צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תרגי
+ לים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n•
+  מתיחות של 30 שניות: שוקיים\, ירך אחורית\, כ
+ ופפי ירך\n\nמהשבוע עוברים לגרסה על רגל אח
+ ת. זה מחזק כל רגל לחוד\, בדיוק כמו בריצה.\n\
+ nהתוכנית המלאה: https://yonatankazhdan.github.io/half-maratho
+ n-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש6 · קלה 4 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w6-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:🏃‍♀️ ש6 · יוגה
+DESCRIPTION:שלב הבנייה מתחיל. הכוח עובר לגרסה 
+ על רגל אחת\, ואפשר להוסיף ריצה רביעית קלה
+  ביום ד׳.\n\n== יוגה · היוגה הרגילה שלך ==\nמה
+  עושים:\n• היוגה הרגילה שלך\, בכל סגנון\n•
+  בלי תנוחות שמשאירות את הרגליים עייפות א
+ ו כואבות למחרת\n\nערב לפני הריצה הארוכה: י
+ וגה מצוינת לשחרור\, רק לא עד תשישות.\n\nהתו
+ כנית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש6 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w7-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:🏃‍♀️ ש7 · ארוכה 10 ק״מ
+DESCRIPTION:== ריצה ארוכה · 10 ק״מ בקצב קל ==\nחימ
+ ום · 5 דק׳:\n• 5 דקות הליכה מהירה\n• 10 נדנו
+ די רגל קדימה-אחורה ולצדדים\, לכל רגל\n• ה
+ קילומטר הראשון לאט יותר מקצב קל\n\nעיקרי 
+ · 10 ק״מ:\n• 10 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• ב
+ קצב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n• 
+ מעל שעה: לוקחים מים (בקבוק או חגורה) או מת
+ כננים מסלול עם ברזייה.\n\nשחרור · 15 דק׳:\n•
+  10 דקות הליכה\n• מתיחות 5 דקות: שוקיים\, יר
+ ך אחורית\, ירך קדמית\, ישבן\n• לאכול פחמימ
+ ות וחלבון בתוך שעה\n\nהתוכנית המלאה: https://y
+ onatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש7 · ארוכה 10 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w7-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:🏃‍♀️ ש7 · יוגה רגועה
+DESCRIPTION:== יוגה · יוגה רגועה להתאוששות ==\nמ
+ ה עושים:\n• יוגה רגועה: יין\, רסטורטיבית א
+ ו האטה\n• להתמקד בירכיים\, ירך אחורית\, שו
+ קיים וגב תחתון\n• בלי פאוור יוגה אינטנסי
+ בית ביום הזה\n\nיום אחרי הריצה הארוכה המט
+ רה היא שחרור\, לא עוד אימון קשה.\n\nהתוכנית
+  המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש7 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w7-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🏃‍♀️ ש7 · טמפו 6 ק״מ + כוח
+DESCRIPTION:== טמפו · 2 ק״מ בקצב טמפו ==\nחימום · 2
+  ק״מ:\n• 2 ק״מ ריצה קלה מאוד (6:46–7:17 לק״מ)\n
+ • תרגילי ריצה\, פעמיים 20 מ׳ מכל אחד: הרמת 
+ ברכיים\, עקב לישבן\, דילוגים\n• 3 האצות קצ
+ רות של 15 שניות\n\nעיקרי:\n• 2 ק״מ ברצף בקצב 
+ טמפו (5:24–5:37 לק״מ)\n\nשחרור · 2 ק״מ:\n• 2 ק״מ 
+ ריצה קלה\n• 5 דקות הליכה\n• מתיחות של 30 שנ
+ יות: שוקיים\, ירך אחורית\, כופפי ירך\n\nאת ה
+ מקטעים רצים בקצב שכתוב\, לא מהר יותר. בסו
+ ף צריך להרגיש שהיה אפשר לעשות עוד אחד.\n\n=
+ = כוח · אחרי הריצה\, 20 דק׳ ==\nחימום · 2 דק׳:\n
+ • מיד אחרי הריצה\, כשהגוף עוד חם\n• 10 נדנ
+ ודי רגל לכל רגל\, 10 סיבובי ירך\n\nעיקרי · 3 
+ סבבים:\n• 1. סקוואט (אפשר עם תיק עם בקבוקי 
+ מים על הגב): 15\n• 2. לאנג׳ אחורה: 12 לכל רגל\n
+ • 3. גשר ישבן על רגל אחת: 10 לכל צד\n• 4. עלי
+ ות על קצות האצבעות על רגל אחת: 12 לכל צד\n•
+  5. דדליפט על רגל אחת\, בלי משקל: 8 לכל צד\n•
+  6. פלאנק: 45 שנ׳\n• 7. פלאנק צד: 30 שנ׳ לכל צד\
+ n• 30 שניות מנוחה בין תרגילים\, 1–2 דקות בי
+ ן סבבים\n\nשחרור · 3 דק׳:\n• מתיחות של 30 שני
+ ות: שוקיים\, ירך אחורית\, כופפי ירך\n\nהתוכ
+ נית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש7 · טמפו 6 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w7-d3@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🏃‍♀️ ש7 · קלה 3 ק״מ (רשות)
+DESCRIPTION:== ריצה קלה · רשות · 3 ק״מ\, רק אם הגו
+ ף מרגיש טוב ==\nחימום · 5 דק׳:\n• 3 דקות הליכ
+ ה מהירה\n• הקילומטר הראשון הכי לאט\n\nעיק
+ רי:\n• 3 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצב ש
+ יחה כל הדרך. אם יש ספק\, לאט יותר.\n\nשחרור 
+ · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 שני
+ ות: שוקיים\, ירך אחורית\, כופפי ירך\n\nאפשר 
+ לוותר בלי רגשות אשם. זה בונוס.\n\nהתוכנית 
+ המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש7 · קלה 3 ק״מ (רשות)
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w7-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:🏃‍♀️ ש7 · קלה 5 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 5 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 5 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט (אפשר עם 
+ תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳ אח
+ ורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת: 10 
+ לכל צד\n• 4. עליות על קצות האצבעות על רגל 
+ אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בלי 
+ משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק 
+ צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תרגי
+ לים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n•
+  מתיחות של 30 שניות: שוקיים\, ירך אחורית\, כ
+ ופפי ירך\n\nהתוכנית המלאה: https://yonatankazhdan.gith
+ ub.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש7 · קלה 5 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w7-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:🏃‍♀️ ש7 · יוגה
+DESCRIPTION:== יוגה · היוגה הרגילה שלך ==\nמה עוש
+ ים:\n• היוגה הרגילה שלך\, בכל סגנון\n• בלי
+  תנוחות שמשאירות את הרגליים עייפות או כו
+ אבות למחרת\n\nערב לפני הריצה הארוכה: יוגה 
+ מצוינת לשחרור\, רק לא עד תשישות.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש7 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w8-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:🏃‍♀️ ש8 · ארוכה 7 ק״מ
+DESCRIPTION:שבוע הורדה עם מבחן. את הזמן מכניסי
+ ם במחשבון למעלה\, וכל הקצבים מתעדכנים.\n\n=
+ = ריצה ארוכה · 7 ק״מ בקצב קל ==\nחימום · 5 דק
+ ׳:\n• 5 דקות הליכה מהירה\n• 10 נדנודי רגל ק
+ דימה-אחורה ולצדדים\, לכל רגל\n• הקילומטר 
+ הראשון לאט יותר מקצב קל\n\nעיקרי · 7 ק״מ:\n
+ • 7 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצב שיחה 
+ כל הדרך. אם יש ספק\, לאט יותר.\n\nשחרור · 15 ד
+ ק׳:\n• 10 דקות הליכה\n• מתיחות 5 דקות: שוקי
+ ים\, ירך אחורית\, ירך קדמית\, ישבן\n• לאכול
+  פחמימות וחלבון בתוך שעה\n\nהתוכנית המלאה
+ : https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש8 · ארוכה 7 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w8-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:🏃‍♀️ ש8 · יוגה רגועה
+DESCRIPTION:שבוע הורדה עם מבחן. את הזמן מכניסי
+ ם במחשבון למעלה\, וכל הקצבים מתעדכנים.\n\n=
+ = יוגה · יוגה רגועה להתאוששות ==\nמה עושים:
+ \n• יוגה רגועה: יין\, רסטורטיבית או האטה\n
+ • להתמקד בירכיים\, ירך אחורית\, שוקיים וג
+ ב תחתון\n• בלי פאוור יוגה אינטנסיבית ביו
+ ם הזה\n\nיום אחרי הריצה הארוכה המטרה היא ש
+ חרור\, לא עוד אימון קשה.\n\nהתוכנית המלאה: h
+ ttps://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש8 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w8-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:🏃‍♀️ ש8 · מבחן 5 ק״מ 7 ק״מ + כוח
+DESCRIPTION:שבוע הורדה עם מבחן. את הזמן מכניסי
+ ם במחשבון למעלה\, וכל הקצבים מתעדכנים.\n\n=
+ = מבחן 5 ק״מ · 5 ק״מ במאמץ מלא ==\nחימום · 1 ק
+ ״מ:\n• 1 ק״מ ריצה קלה מאוד (6:46–7:17 לק״מ)\n• 
+ תרגילי ריצה\, פעמיים 20 מ׳ מכל אחד: הרמת בר
+ כיים\, עקב לישבן\, דילוגים\n• 3 האצות קצרו
+ ת של 15 שניות\n\nעיקרי:\n• 5 ק״מ במאמץ חזק וא
+ חיד\, על מסלול שטוח\n• לא לפתוח מהר מדי: ה
+ קילומטר הראשון בערך (5:03–5:12 לק״מ)\n• בסוף
+  להכניס את הזמן במחשבון בראש הדף\n\nשחרור 
+ · 1 ק״מ:\n• 1 ק״מ ריצה קלה\n• 5 דקות הליכה\n
+ • מתיחות של 30 שניות: שוקיים\, ירך אחורית\,
+  כופפי ירך\n\nמאמץ חזק ואחיד מההתחלה ועד ה
+ סוף. אם הקילומטר האחרון הוא הכי מהיר\, עש
+ ית את זה מושלם.\n\n== כוח · אחרי הריצה\, 20 דק
+ ׳ ==\nחימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהג
+ וף עוד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבו
+ בי ירך\n\nעיקרי · 2 סבבים:\n• 1. סקוואט (אפשר
+  עם תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳
+  אחורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת:
+  10 לכל צד\n• 4. עליות על קצות האצבעות על רג
+ ל אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בל
+ י משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנ
+ ק צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תר
+ גילים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\nשבוע קל: 2 סבבים בלבד.\n\nהתוכ
+ נית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש8 · מבחן 5 ק״מ 7 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w8-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:🏃‍♀️ ש8 · קלה 4 ק״מ + כוח
+DESCRIPTION:שבוע הורדה עם מבחן. את הזמן מכניסי
+ ם במחשבון למעלה\, וכל הקצבים מתעדכנים.\n\n=
+ = ריצה קלה · 4 ק״מ קלים ==\nחימום · 5 דק׳:\n• 3
+  דקות הליכה מהירה\n• הקילומטר הראשון הכי
+  לאט\n\nעיקרי:\n• 4 ק״מ בקצב קל (6:46–7:17 לק״מ)
+ \n• בקצב שיחה כל הדרך. אם יש ספק\, לאט יותר
+ .\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות
+  של 30 שניות: שוקיים\, ירך אחורית\, כופפי יר
+ ך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\nחימום · 2 ד
+ ק׳:\n• מיד אחרי הריצה\, כשהגוף עוד חם\n• 10 
+ נדנודי רגל לכל רגל\, 10 סיבובי ירך\n\nעיקרי 
+ · 2 סבבים:\n• 1. סקוואט (אפשר עם תיק עם בקבו
+ קי מים על הגב): 15\n• 2. לאנג׳ אחורה: 12 לכל ר
+ גל\n• 3. גשר ישבן על רגל אחת: 10 לכל צד\n• 4. 
+ עליות על קצות האצבעות על רגל אחת: 12 לכל צ
+ ד\n• 5. דדליפט על רגל אחת\, בלי משקל: 8 לכל צ
+ ד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק צד: 30 שנ׳ לכ
+ ל צד\n• 30 שניות מנוחה בין תרגילים\, 1–2 דק
+ ות בין סבבים\n\nשחרור · 3 דק׳:\n• מתיחות של 
+ 30 שניות: שוקיים\, ירך אחורית\, כופפי ירך\n\n
+ שבוע קל: 2 סבבים בלבד.\n\nהתוכנית המלאה: https
+ ://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש8 · קלה 4 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w8-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:🏃‍♀️ ש8 · יוגה
+DESCRIPTION:שבוע הורדה עם מבחן. את הזמן מכניסי
+ ם במחשבון למעלה\, וכל הקצבים מתעדכנים.\n\n=
+ = יוגה · היוגה הרגילה שלך ==\nמה עושים:\n• ה
+ יוגה הרגילה שלך\, בכל סגנון\n• בלי תנוחות
+  שמשאירות את הרגליים עייפות או כואבות למ
+ חרת\n\nערב לפני הריצה הארוכה: יוגה מצוינת 
+ לשחרור\, רק לא עד תשישות.\n\nהתוכנית המלאה:
+  https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש8 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w9-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:🏃‍♀️ ש9 · ארוכה 12 ק״מ
+DESCRIPTION:== ריצה ארוכה · 12 ק״מ בקצב קל ==\nחימ
+ ום · 5 דק׳:\n• 5 דקות הליכה מהירה\n• 10 נדנו
+ די רגל קדימה-אחורה ולצדדים\, לכל רגל\n• ה
+ קילומטר הראשון לאט יותר מקצב קל\n\nעיקרי 
+ · 12 ק״מ:\n• 12 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• ב
+ קצב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n• 
+ מעל שעה: לוקחים מים (בקבוק או חגורה) או מת
+ כננים מסלול עם ברזייה.\n• תרגול אנרגיה: ג
+ ׳ל או 2 תמרים אחרי 45 דקות\, ואז כל 30–40 דקו
+ ת\, עם מים.\n\nשחרור · 15 דק׳:\n• 10 דקות הליכה
+ \n• מתיחות 5 דקות: שוקיים\, ירך אחורית\, יר
+ ך קדמית\, ישבן\n• לאכול פחמימות וחלבון בת
+ וך שעה\n\nהתוכנית המלאה: https://yonatankazhdan.github.i
+ o/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש9 · ארוכה 12 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w9-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:🏃‍♀️ ש9 · יוגה רגועה
+DESCRIPTION:== יוגה · יוגה רגועה להתאוששות ==\nמ
+ ה עושים:\n• יוגה רגועה: יין\, רסטורטיבית א
+ ו האטה\n• להתמקד בירכיים\, ירך אחורית\, שו
+ קיים וגב תחתון\n• בלי פאוור יוגה אינטנסי
+ בית ביום הזה\n\nיום אחרי הריצה הארוכה המט
+ רה היא שחרור\, לא עוד אימון קשה.\n\nהתוכנית
+  המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש9 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w9-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:🏃‍♀️ ש9 · אינטרוולים 6 ק״מ + כוח
+DESCRIPTION:== אינטרוולים · 5 × 2 דקות מהיר ==\nחי
+ מום · 2 ק״מ:\n• 2 ק״מ ריצה קלה מאוד (6:46–7:17 
+ לק״מ)\n• תרגילי ריצה\, פעמיים 20 מ׳ מכל אחד
+ : הרמת ברכיים\, עקב לישבן\, דילוגים\n• 3 הא
+ צות קצרות של 15 שניות\n\nעיקרי:\n• 5 פעמים: 2 
+ דקות מהיר (5:03–5:12 לק״מ)\n• בין לבין: 2 דקות
+  ג׳וג קל מאוד או הליכה\n\nשחרור · 1.5 ק״מ:\n•
+  1.5 ק״מ ריצה קלה\n• 5 דקות הליכה\n• מתיחות 
+ של 30 שניות: שוקיים\, ירך אחורית\, כופפי יר
+ ך\n\nאת המקטעים רצים בקצב שכתוב\, לא מהר יו
+ תר. בסוף צריך להרגיש שהיה אפשר לעשות עוד 
+ אחד.\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\nחימום ·
+  2 דק׳:\n• מיד אחרי הריצה\, כשהגוף עוד חם\n
+ • 10 נדנודי רגל לכל רגל\, 10 סיבובי ירך\n\nעי
+ קרי · 3 סבבים:\n• 1. סקוואט (אפשר עם תיק עם 
+ בקבוקי מים על הגב): 15\n• 2. לאנג׳ אחורה: 12 ל
+ כל רגל\n• 3. גשר ישבן על רגל אחת: 10 לכל צד\n
+ • 4. עליות על קצות האצבעות על רגל אחת: 12 ל
+ כל צד\n• 5. דדליפט על רגל אחת\, בלי משקל: 8 ל
+ כל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק צד: 30 שנ
+ ׳ לכל צד\n• 30 שניות מנוחה בין תרגילים\, 1–
+ 2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n• מתיחות
+  של 30 שניות: שוקיים\, ירך אחורית\, כופפי יר
+ ך\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/half-ma
+ rathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש9 · אינטרוולים 6 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w9-d3@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:🏃‍♀️ ש9 · קלה 3 ק״מ (רשות)
+DESCRIPTION:== ריצה קלה · רשות · 3 ק״מ\, רק אם הגו
+ ף מרגיש טוב ==\nחימום · 5 דק׳:\n• 3 דקות הליכ
+ ה מהירה\n• הקילומטר הראשון הכי לאט\n\nעיק
+ רי:\n• 3 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצב ש
+ יחה כל הדרך. אם יש ספק\, לאט יותר.\n\nשחרור 
+ · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 שני
+ ות: שוקיים\, ירך אחורית\, כופפי ירך\n\nאפשר 
+ לוותר בלי רגשות אשם. זה בונוס.\n\nהתוכנית 
+ המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש9 · קלה 3 ק״מ (רשות)
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w9-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:🏃‍♀️ ש9 · קלה 5 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 5 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 5 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט (אפשר עם 
+ תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳ אח
+ ורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת: 10 
+ לכל צד\n• 4. עליות על קצות האצבעות על רגל 
+ אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בלי 
+ משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק 
+ צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תרגי
+ לים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n•
+  מתיחות של 30 שניות: שוקיים\, ירך אחורית\, כ
+ ופפי ירך\n\nהתוכנית המלאה: https://yonatankazhdan.gith
+ ub.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש9 · קלה 5 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w9-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:🏃‍♀️ ש9 · יוגה
+DESCRIPTION:== יוגה · היוגה הרגילה שלך ==\nמה עוש
+ ים:\n• היוגה הרגילה שלך\, בכל סגנון\n• בלי
+  תנוחות שמשאירות את הרגליים עייפות או כו
+ אבות למחרת\n\nערב לפני הריצה הארוכה: יוגה 
+ מצוינת לשחרור\, רק לא עד תשישות.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש9 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w10-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:🏃‍♀️ ש10 · ארוכה 13 ק״מ
+DESCRIPTION:== ריצה ארוכה · 13 ק״מ בקצב קל ==\nחימ
+ ום · 5 דק׳:\n• 5 דקות הליכה מהירה\n• 10 נדנו
+ די רגל קדימה-אחורה ולצדדים\, לכל רגל\n• ה
+ קילומטר הראשון לאט יותר מקצב קל\n\nעיקרי 
+ · 13 ק״מ:\n• 13 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• ב
+ קצב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n• 
+ מעל שעה: לוקחים מים (בקבוק או חגורה) או מת
+ כננים מסלול עם ברזייה.\n• תרגול אנרגיה: ג
+ ׳ל או 2 תמרים אחרי 45 דקות\, ואז כל 30–40 דקו
+ ת\, עם מים.\n\nשחרור · 15 דק׳:\n• 10 דקות הליכה
+ \n• מתיחות 5 דקות: שוקיים\, ירך אחורית\, יר
+ ך קדמית\, ישבן\n• לאכול פחמימות וחלבון בת
+ וך שעה\n\nהתוכנית המלאה: https://yonatankazhdan.github.i
+ o/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש10 · ארוכה 13 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w10-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:🏃‍♀️ ש10 · יוגה רגועה
+DESCRIPTION:== יוגה · יוגה רגועה להתאוששות ==\nמ
+ ה עושים:\n• יוגה רגועה: יין\, רסטורטיבית א
+ ו האטה\n• להתמקד בירכיים\, ירך אחורית\, שו
+ קיים וגב תחתון\n• בלי פאוור יוגה אינטנסי
+ בית ביום הזה\n\nיום אחרי הריצה הארוכה המט
+ רה היא שחרור\, לא עוד אימון קשה.\n\nהתוכנית
+  המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש10 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w10-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:🏃‍♀️ ש10 · טמפו 7 ק״מ + כוח
+DESCRIPTION:== טמפו · 3 ק״מ בקצב טמפו ==\nחימום · 2
+  ק״מ:\n• 2 ק״מ ריצה קלה מאוד (6:46–7:17 לק״מ)\n
+ • תרגילי ריצה\, פעמיים 20 מ׳ מכל אחד: הרמת 
+ ברכיים\, עקב לישבן\, דילוגים\n• 3 האצות קצ
+ רות של 15 שניות\n\nעיקרי:\n• 3 ק״מ ברצף בקצב 
+ טמפו (5:24–5:37 לק״מ)\n\nשחרור · 2 ק״מ:\n• 2 ק״מ 
+ ריצה קלה\n• 5 דקות הליכה\n• מתיחות של 30 שנ
+ יות: שוקיים\, ירך אחורית\, כופפי ירך\n\nאת ה
+ מקטעים רצים בקצב שכתוב\, לא מהר יותר. בסו
+ ף צריך להרגיש שהיה אפשר לעשות עוד אחד.\n\n=
+ = כוח · אחרי הריצה\, 20 דק׳ ==\nחימום · 2 דק׳:\n
+ • מיד אחרי הריצה\, כשהגוף עוד חם\n• 10 נדנ
+ ודי רגל לכל רגל\, 10 סיבובי ירך\n\nעיקרי · 3 
+ סבבים:\n• 1. סקוואט (אפשר עם תיק עם בקבוקי 
+ מים על הגב): 15\n• 2. לאנג׳ אחורה: 12 לכל רגל\n
+ • 3. גשר ישבן על רגל אחת: 10 לכל צד\n• 4. עלי
+ ות על קצות האצבעות על רגל אחת: 12 לכל צד\n•
+  5. דדליפט על רגל אחת\, בלי משקל: 8 לכל צד\n•
+  6. פלאנק: 45 שנ׳\n• 7. פלאנק צד: 30 שנ׳ לכל צד\
+ n• 30 שניות מנוחה בין תרגילים\, 1–2 דקות בי
+ ן סבבים\n\nשחרור · 3 דק׳:\n• מתיחות של 30 שני
+ ות: שוקיים\, ירך אחורית\, כופפי ירך\n\nהתוכ
+ נית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש10 · טמפו 7 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w10-d3@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:🏃‍♀️ ש10 · קלה 4 ק״מ (רשות)
+DESCRIPTION:== ריצה קלה · רשות · 4 ק״מ\, רק אם הגו
+ ף מרגיש טוב ==\nחימום · 5 דק׳:\n• 3 דקות הליכ
+ ה מהירה\n• הקילומטר הראשון הכי לאט\n\nעיק
+ רי:\n• 4 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצב ש
+ יחה כל הדרך. אם יש ספק\, לאט יותר.\n\nשחרור 
+ · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 שני
+ ות: שוקיים\, ירך אחורית\, כופפי ירך\n\nאפשר 
+ לוותר בלי רגשות אשם. זה בונוס.\n\nהתוכנית 
+ המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש10 · קלה 4 ק״מ (רשות)
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w10-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:🏃‍♀️ ש10 · קלה 5 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 5 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 5 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט (אפשר עם 
+ תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳ אח
+ ורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת: 10 
+ לכל צד\n• 4. עליות על קצות האצבעות על רגל 
+ אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בלי 
+ משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק 
+ צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תרגי
+ לים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n•
+  מתיחות של 30 שניות: שוקיים\, ירך אחורית\, כ
+ ופפי ירך\n\nהתוכנית המלאה: https://yonatankazhdan.gith
+ ub.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש10 · קלה 5 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w10-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:🏃‍♀️ ש10 · יוגה
+DESCRIPTION:== יוגה · היוגה הרגילה שלך ==\nמה עוש
+ ים:\n• היוגה הרגילה שלך\, בכל סגנון\n• בלי
+  תנוחות שמשאירות את הרגליים עייפות או כו
+ אבות למחרת\n\nערב לפני הריצה הארוכה: יוגה 
+ מצוינת לשחרור\, רק לא עד תשישות.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש10 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w11-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:🏃‍♀️ ש11 · ארוכה 10 ק״מ
+DESCRIPTION:שבוע הורדה לפני שני השבועות הכי ג
+ דולים.\n\n== ריצה ארוכה · 10 ק״מ בקצב קל ==\nחי
+ מום · 5 דק׳:\n• 5 דקות הליכה מהירה\n• 10 נדנ
+ ודי רגל קדימה-אחורה ולצדדים\, לכל רגל\n• 
+ הקילומטר הראשון לאט יותר מקצב קל\n\nעיקרי
+  · 10 ק״מ:\n• 10 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• 
+ בקצב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n•
+  מעל שעה: לוקחים מים (בקבוק או חגורה) או מ
+ תכננים מסלול עם ברזייה.\n\nשחרור · 15 דק׳:\n
+ • 10 דקות הליכה\n• מתיחות 5 דקות: שוקיים\, 
+ ירך אחורית\, ירך קדמית\, ישבן\n• לאכול פחמ
+ ימות וחלבון בתוך שעה\n\nהתוכנית המלאה: https
+ ://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש11 · ארוכה 10 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w11-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:🏃‍♀️ ש11 · יוגה רגועה
+DESCRIPTION:שבוע הורדה לפני שני השבועות הכי ג
+ דולים.\n\n== יוגה · יוגה רגועה להתאוששות ==\n
+ מה עושים:\n• יוגה רגועה: יין\, רסטורטיבית 
+ או האטה\n• להתמקד בירכיים\, ירך אחורית\, ש
+ וקיים וגב תחתון\n• בלי פאוור יוגה אינטנס
+ יבית ביום הזה\n\nיום אחרי הריצה הארוכה המ
+ טרה היא שחרור\, לא עוד אימון קשה.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש11 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w11-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:🏃‍♀️ ש11 · קלה 5 ק״מ + כוח
+DESCRIPTION:שבוע הורדה לפני שני השבועות הכי ג
+ דולים.\n\n== קלה + האצות · 5 ק״מ קלים + 6 האצות
+  ==\nחימום · 5 דק׳:\n• 3 דקות הליכה מהירה\n• 
+ הקילומטר הראשון הכי לאט\n\nעיקרי:\n• 5 ק״מ 
+ בקצב קל (6:46–7:17 לק״מ)\n• בקצב שיחה כל הדרך
+ . אם יש ספק\, לאט יותר.\n• 6 האצות של 20 שניו
+ ת בסוף\, על משטח ישר: מאיצות בהדרגה למהיר 
+ וקליל. בין האצה להאצה הולכים דקה.\n\nשחרור
+  · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 שני
+ ות: שוקיים\, ירך אחורית\, כופפי ירך\n\n== כוח
+  · אחרי הריצה\, 20 דק׳ ==\nחימום · 2 דק׳:\n• מי
+ ד אחרי הריצה\, כשהגוף עוד חם\n• 10 נדנודי ר
+ גל לכל רגל\, 10 סיבובי ירך\n\nעיקרי · 2 סבבים
+ :\n• 1. סקוואט (אפשר עם תיק עם בקבוקי מים ע
+ ל הגב): 15\n• 2. לאנג׳ אחורה: 12 לכל רגל\n• 3. ג
+ שר ישבן על רגל אחת: 10 לכל צד\n• 4. עליות על 
+ קצות האצבעות על רגל אחת: 12 לכל צד\n• 5. דדל
+ יפט על רגל אחת\, בלי משקל: 8 לכל צד\n• 6. פלא
+ נק: 45 שנ׳\n• 7. פלאנק צד: 30 שנ׳ לכל צד\n• 30 ש
+ ניות מנוחה בין תרגילים\, 1–2 דקות בין סבב
+ ים\n\nשחרור · 3 דק׳:\n• מתיחות של 30 שניות: ש
+ וקיים\, ירך אחורית\, כופפי ירך\n\nשבוע קל: 2 
+ סבבים בלבד.\n\nהתוכנית המלאה: https://yonatankazhdan
+ .github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש11 · קלה 5 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w11-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:🏃‍♀️ ש11 · קלה 5 ק״מ + כוח
+DESCRIPTION:שבוע הורדה לפני שני השבועות הכי ג
+ דולים.\n\n== ריצה קלה · 5 ק״מ קלים ==\nחימום · 
+ 5 דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר ה
+ ראשון הכי לאט\n\nעיקרי:\n• 5 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 2 סבבים:\n• 1. סקוואט (אפשר עם 
+ תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳ אח
+ ורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת: 10 
+ לכל צד\n• 4. עליות על קצות האצבעות על רגל 
+ אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בלי 
+ משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק 
+ צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תרגי
+ לים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n•
+  מתיחות של 30 שניות: שוקיים\, ירך אחורית\, כ
+ ופפי ירך\n\nשבוע קל: 2 סבבים בלבד.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש11 · קלה 5 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w11-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:🏃‍♀️ ש11 · יוגה
+DESCRIPTION:שבוע הורדה לפני שני השבועות הכי ג
+ דולים.\n\n== יוגה · היוגה הרגילה שלך ==\nמה ע
+ ושים:\n• היוגה הרגילה שלך\, בכל סגנון\n• ב
+ לי תנוחות שמשאירות את הרגליים עייפות או 
+ כואבות למחרת\n\nערב לפני הריצה הארוכה: יו
+ גה מצוינת לשחרור\, רק לא עד תשישות.\n\nהתוכ
+ נית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש11 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w12-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:🏃‍♀️ ש12 · ארוכה 15 ק״מ
+DESCRIPTION:== ריצה ארוכה · 15 ק״מ בקצב קל ==\nחימ
+ ום · 5 דק׳:\n• 5 דקות הליכה מהירה\n• 10 נדנו
+ די רגל קדימה-אחורה ולצדדים\, לכל רגל\n• ה
+ קילומטר הראשון לאט יותר מקצב קל\n\nעיקרי 
+ · 15 ק״מ:\n• 15 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• ב
+ קצב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n• 
+ מעל שעה: לוקחים מים (בקבוק או חגורה) או מת
+ כננים מסלול עם ברזייה.\n• תרגול אנרגיה: ג
+ ׳ל או 2 תמרים אחרי 45 דקות\, ואז כל 30–40 דקו
+ ת\, עם מים.\n\nשחרור · 15 דק׳:\n• 10 דקות הליכה
+ \n• מתיחות 5 דקות: שוקיים\, ירך אחורית\, יר
+ ך קדמית\, ישבן\n• לאכול פחמימות וחלבון בת
+ וך שעה\n\nהתוכנית המלאה: https://yonatankazhdan.github.i
+ o/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש12 · ארוכה 15 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w12-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:🏃‍♀️ ש12 · יוגה רגועה
+DESCRIPTION:== יוגה · יוגה רגועה להתאוששות ==\nמ
+ ה עושים:\n• יוגה רגועה: יין\, רסטורטיבית א
+ ו האטה\n• להתמקד בירכיים\, ירך אחורית\, שו
+ קיים וגב תחתון\n• בלי פאוור יוגה אינטנסי
+ בית ביום הזה\n\nיום אחרי הריצה הארוכה המט
+ רה היא שחרור\, לא עוד אימון קשה.\n\nהתוכנית
+  המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש12 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w12-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:🏃‍♀️ ש12 · אינטרוולים 7 ק״מ + כוח
+DESCRIPTION:== אינטרוולים · 4 × 1 ק״מ מהיר ==\nחימ
+ ום · 2 ק״מ:\n• 2 ק״מ ריצה קלה מאוד (6:46–7:17 ל
+ ק״מ)\n• תרגילי ריצה\, פעמיים 20 מ׳ מכל אחד: 
+ הרמת ברכיים\, עקב לישבן\, דילוגים\n• 3 האצ
+ ות קצרות של 15 שניות\n\nעיקרי:\n• 4 פעמים: 1 ק
+ ״מ (5:03–5:12 לק״מ)\n• בין לבין: 2 דקות ג׳וג ק
+ ל\n\nשחרור · 1 ק״מ:\n• 1 ק״מ ריצה קלה\n• 5 דקו
+ ת הליכה\n• מתיחות של 30 שניות: שוקיים\, ירך
+  אחורית\, כופפי ירך\n\nאת המקטעים רצים בקצ
+ ב שכתוב\, לא מהר יותר. בסוף צריך להרגיש שה
+ יה אפשר לעשות עוד אחד.\n\n== כוח · אחרי הריצ
+ ה\, 20 דק׳ ==\nחימום · 2 דק׳:\n• מיד אחרי הריצ
+ ה\, כשהגוף עוד חם\n• 10 נדנודי רגל לכל רגל\,
+  10 סיבובי ירך\n\nעיקרי · 3 סבבים:\n• 1. סקווא
+ ט (אפשר עם תיק עם בקבוקי מים על הגב): 15\n• 2
+ . לאנג׳ אחורה: 12 לכל רגל\n• 3. גשר ישבן על ר
+ גל אחת: 10 לכל צד\n• 4. עליות על קצות האצבעו
+ ת על רגל אחת: 12 לכל צד\n• 5. דדליפט על רגל א
+ חת\, בלי משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 
+ 7. פלאנק צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה 
+ בין תרגילים\, 1–2 דקות בין סבבים\n\nשחרור ·
+  3 דק׳:\n• מתיחות של 30 שניות: שוקיים\, ירך א
+ חורית\, כופפי ירך\n\nהתוכנית המלאה: https://yona
+ tankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש12 · אינטרוולים 7 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w12-d3@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:🏃‍♀️ ש12 · קלה 4 ק״מ (רשות)
+DESCRIPTION:== ריצה קלה · רשות · 4 ק״מ\, רק אם הגו
+ ף מרגיש טוב ==\nחימום · 5 דק׳:\n• 3 דקות הליכ
+ ה מהירה\n• הקילומטר הראשון הכי לאט\n\nעיק
+ רי:\n• 4 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצב ש
+ יחה כל הדרך. אם יש ספק\, לאט יותר.\n\nשחרור 
+ · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של 30 שני
+ ות: שוקיים\, ירך אחורית\, כופפי ירך\n\nאפשר 
+ לוותר בלי רגשות אשם. זה בונוס.\n\nהתוכנית 
+ המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש12 · קלה 4 ק״מ (רשות)
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w12-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:🏃‍♀️ ש12 · קלה 6 ק״מ + כוח
+DESCRIPTION:== ריצה קלה · 6 ק״מ קלים ==\nחימום · 5 
+ דק׳:\n• 3 דקות הליכה מהירה\n• הקילומטר הר
+ אשון הכי לאט\n\nעיקרי:\n• 6 ק״מ בקצב קל (6:46
+ –7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\
+ , לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\
+ n• מתיחות של 30 שניות: שוקיים\, ירך אחורית\
+ , כופפי ירך\n\n== כוח · אחרי הריצה\, 20 דק׳ ==\n
+ חימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף ע
+ וד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי י
+ רך\n\nעיקרי · 3 סבבים:\n• 1. סקוואט (אפשר עם 
+ תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳ אח
+ ורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת: 10 
+ לכל צד\n• 4. עליות על קצות האצבעות על רגל 
+ אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בלי 
+ משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק 
+ צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תרגי
+ לים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n•
+  מתיחות של 30 שניות: שוקיים\, ירך אחורית\, כ
+ ופפי ירך\n\nהתוכנית המלאה: https://yonatankazhdan.gith
+ ub.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש12 · קלה 6 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w12-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:🏃‍♀️ ש12 · יוגה
+DESCRIPTION:== יוגה · היוגה הרגילה שלך ==\nמה עוש
+ ים:\n• היוגה הרגילה שלך\, בכל סגנון\n• בלי
+  תנוחות שמשאירות את הרגליים עייפות או כו
+ אבות למחרת\n\nערב לפני הריצה הארוכה: יוגה 
+ מצוינת לשחרור\, רק לא עד תשישות.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש12 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w13-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:🏃‍♀️ ש13 · ארוכה 17 ק״מ
+DESCRIPTION:שבוע השיא. מכאן רק מורידים.\n\n== ריצ
+ ה ארוכה · 17 ק״מ בקצב קל ==\nחימום · 5 דק׳:\n•
+  5 דקות הליכה מהירה\n• 10 נדנודי רגל קדימה-
+ אחורה ולצדדים\, לכל רגל\n• הקילומטר הראש
+ ון לאט יותר מקצב קל\n\nעיקרי · 17 ק״מ:\n• 17 ק
+ ״מ בקצב קל (6:46–7:17 לק״מ)\n• בקצב שיחה כל ה
+ דרך. אם יש ספק\, לאט יותר.\n• מעל שעה: לוקח
+ ים מים (בקבוק או חגורה) או מתכננים מסלול 
+ עם ברזייה.\n• תרגול אנרגיה: ג׳ל או 2 תמרים
+  אחרי 45 דקות\, ואז כל 30–40 דקות\, עם מים.\n• 
+ חזרה גנרלית: אותה ארוחת בוקר\, נעליים ובג
+ דים כמו ביום המרוץ.\n\nשחרור · 15 דק׳:\n• 10 ד
+ קות הליכה\n• מתיחות 5 דקות: שוקיים\, ירך א
+ חורית\, ירך קדמית\, ישבן\n• לאכול פחמימות 
+ וחלבון בתוך שעה\n\nהתוכנית המלאה: https://yonata
+ nkazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש13 · ארוכה 17 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w13-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:🏃‍♀️ ש13 · יוגה רגועה
+DESCRIPTION:שבוע השיא. מכאן רק מורידים.\n\n== יוג
+ ה · יוגה רגועה להתאוששות ==\nמה עושים:\n• י
+ וגה רגועה: יין\, רסטורטיבית או האטה\n• לה
+ תמקד בירכיים\, ירך אחורית\, שוקיים וגב תח
+ תון\n• בלי פאוור יוגה אינטנסיבית ביום הז
+ ה\n\nיום אחרי הריצה הארוכה המטרה היא שחרו
+ ר\, לא עוד אימון קשה.\n\nהתוכנית המלאה: https:/
+ /yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש13 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w13-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:🏃‍♀️ ש13 · טמפו 8 ק״מ + כוח
+DESCRIPTION:שבוע השיא. מכאן רק מורידים.\n\n== טמפ
+ ו · 5 ק״מ בקצב טמפו ==\nחימום · 1.5 ק״מ:\n• 1.5 
+ ק״מ ריצה קלה מאוד (6:46–7:17 לק״מ)\n• תרגילי 
+ ריצה\, פעמיים 20 מ׳ מכל אחד: הרמת ברכיים\, ע
+ קב לישבן\, דילוגים\n• 3 האצות קצרות של 15 ש
+ ניות\n\nעיקרי:\n• 5 ק״מ ברצף בקצב טמפו (5:24–
+ 5:37 לק״מ)\n\nשחרור · 1.5 ק״מ:\n• 1.5 ק״מ ריצה קל
+ ה\n• 5 דקות הליכה\n• מתיחות של 30 שניות: שו
+ קיים\, ירך אחורית\, כופפי ירך\n\nאת המקטעים
+  רצים בקצב שכתוב\, לא מהר יותר. בסוף צריך 
+ להרגיש שהיה אפשר לעשות עוד אחד.\n\n== כוח · 
+ אחרי הריצה\, 20 דק׳ ==\nחימום · 2 דק׳:\n• מיד 
+ אחרי הריצה\, כשהגוף עוד חם\n• 10 נדנודי רג
+ ל לכל רגל\, 10 סיבובי ירך\n\nעיקרי · 3 סבבים:\
+ n• 1. סקוואט (אפשר עם תיק עם בקבוקי מים על 
+ הגב): 15\n• 2. לאנג׳ אחורה: 12 לכל רגל\n• 3. גש
+ ר ישבן על רגל אחת: 10 לכל צד\n• 4. עליות על ק
+ צות האצבעות על רגל אחת: 12 לכל צד\n• 5. דדלי
+ פט על רגל אחת\, בלי משקל: 8 לכל צד\n• 6. פלאנ
+ ק: 45 שנ׳\n• 7. פלאנק צד: 30 שנ׳ לכל צד\n• 30 שנ
+ יות מנוחה בין תרגילים\, 1–2 דקות בין סבבי
+ ם\n\nשחרור · 3 דק׳:\n• מתיחות של 30 שניות: שו
+ קיים\, ירך אחורית\, כופפי ירך\n\nהתוכנית המ
+ לאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש13 · טמפו 8 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w13-d3@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:🏃‍♀️ ש13 · קלה 4 ק״מ (רשות)
+DESCRIPTION:שבוע השיא. מכאן רק מורידים.\n\n== ריצ
+ ה קלה · רשות · 4 ק״מ\, רק אם הגוף מרגיש טוב 
+ ==\nחימום · 5 דק׳:\n• 3 דקות הליכה מהירה\n• ה
+ קילומטר הראשון הכי לאט\n\nעיקרי:\n• 4 ק״מ ב
+ קצב קל (6:46–7:17 לק״מ)\n• בקצב שיחה כל הדרך. 
+ אם יש ספק\, לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 ד
+ קות הליכה\n• מתיחות של 30 שניות: שוקיים\, י
+ רך אחורית\, כופפי ירך\n\nאפשר לוותר בלי רג
+ שות אשם. זה בונוס.\n\nהתוכנית המלאה: https://yon
+ atankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש13 · קלה 4 ק״מ (רשות)
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w13-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:🏃‍♀️ ש13 · קלה 6 ק״מ + כוח
+DESCRIPTION:שבוע השיא. מכאן רק מורידים.\n\n== ריצ
+ ה קלה · 6 ק״מ קלים ==\nחימום · 5 דק׳:\n• 3 דקו
+ ת הליכה מהירה\n• הקילומטר הראשון הכי לאט
+ \n\nעיקרי:\n• 6 ק״מ בקצב קל (6:46–7:17 לק״מ)\n• 
+ בקצב שיחה כל הדרך. אם יש ספק\, לאט יותר.\n\n
+ שחרור · 5 דק׳:\n• 5 דקות הליכה\n• מתיחות של
+  30 שניות: שוקיים\, ירך אחורית\, כופפי ירך\n\
+ n== כוח · אחרי הריצה\, 20 דק׳ ==\nחימום · 2 דק׳:
+ \n• מיד אחרי הריצה\, כשהגוף עוד חם\n• 10 נד
+ נודי רגל לכל רגל\, 10 סיבובי ירך\n\nעיקרי · 3
+  סבבים:\n• 1. סקוואט (אפשר עם תיק עם בקבוקי
+  מים על הגב): 15\n• 2. לאנג׳ אחורה: 12 לכל רגל\
+ n• 3. גשר ישבן על רגל אחת: 10 לכל צד\n• 4. עלי
+ ות על קצות האצבעות על רגל אחת: 12 לכל צד\n•
+  5. דדליפט על רגל אחת\, בלי משקל: 8 לכל צד\n•
+  6. פלאנק: 45 שנ׳\n• 7. פלאנק צד: 30 שנ׳ לכל צד\
+ n• 30 שניות מנוחה בין תרגילים\, 1–2 דקות בי
+ ן סבבים\n\nשחרור · 3 דק׳:\n• מתיחות של 30 שני
+ ות: שוקיים\, ירך אחורית\, כופפי ירך\n\nהתוכ
+ נית המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש13 · קלה 6 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w13-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:🏃‍♀️ ש13 · יוגה
+DESCRIPTION:שבוע השיא. מכאן רק מורידים.\n\n== יוג
+ ה · היוגה הרגילה שלך ==\nמה עושים:\n• היוגה
+  הרגילה שלך\, בכל סגנון\n• בלי תנוחות שמש
+ אירות את הרגליים עייפות או כואבות למחרת\
+ n\nערב לפני הריצה הארוכה: יוגה מצוינת לשח
+ רור\, רק לא עד תשישות.\n\nהתוכנית המלאה: https
+ ://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש13 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w14-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:🏃‍♀️ ש14 · ארוכה 12 ק״מ
+DESCRIPTION:פחות ק״מ\, אותה רמת אנרגיה. רגליים 
+ רעננות זו המטרה.\n\n== ריצה ארוכה · 12 ק״מ בק
+ צב קל ==\nחימום · 5 דק׳:\n• 5 דקות הליכה מהיר
+ ה\n• 10 נדנודי רגל קדימה-אחורה ולצדדים\, ל
+ כל רגל\n• הקילומטר הראשון לאט יותר מקצב 
+ קל\n\nעיקרי · 12 ק״מ:\n• 12 ק״מ בקצב קל (6:46–7:1
+ 7 לק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\, לא
+ ט יותר.\n• מעל שעה: לוקחים מים (בקבוק או ח
+ גורה) או מתכננים מסלול עם ברזייה.\n\nשחרור
+  · 15 דק׳:\n• 10 דקות הליכה\n• מתיחות 5 דקות: 
+ שוקיים\, ירך אחורית\, ירך קדמית\, ישבן\n• ל
+ אכול פחמימות וחלבון בתוך שעה\n\nהתוכנית ה
+ מלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש14 · ארוכה 12 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w14-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:🏃‍♀️ ש14 · יוגה רגועה
+DESCRIPTION:פחות ק״מ\, אותה רמת אנרגיה. רגליים 
+ רעננות זו המטרה.\n\n== יוגה · יוגה רגועה לה
+ תאוששות ==\nמה עושים:\n• יוגה רגועה: יין\, ר
+ סטורטיבית או האטה\n• להתמקד בירכיים\, יר
+ ך אחורית\, שוקיים וגב תחתון\n• בלי פאוור 
+ יוגה אינטנסיבית ביום הזה\n\nיום אחרי הריצ
+ ה הארוכה המטרה היא שחרור\, לא עוד אימון ק
+ שה.\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/half
+ -marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש14 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w14-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:🏃‍♀️ ש14 · קצב מרוץ 6 ק״מ + כוח
+DESCRIPTION:פחות ק״מ\, אותה רמת אנרגיה. רגליים 
+ רעננות זו המטרה.\n\n== קצב מרוץ · 3 ק״מ בקצב 
+ מרוץ ==\nחימום · 1.5 ק״מ:\n• 1.5 ק״מ ריצה קלה מ
+ אוד (6:46–7:17 לק״מ)\n• תרגילי ריצה\, פעמיים 2
+ 0 מ׳ מכל אחד: הרמת ברכיים\, עקב לישבן\, דיל
+ וגים\n• 3 האצות קצרות של 15 שניות\n\nעיקרי:\n
+ • 3 ק״מ בקצב מרוץ (5:50–6:00 לק״מ)\n• צריך לה
+ רגיש נשלט. זה הקצב של יום המרוץ\n\nשחרור · 
+ 1.5 ק״מ:\n• 1.5 ק״מ ריצה קלה\n• 5 דקות הליכה\n
+ • מתיחות של 30 שניות: שוקיים\, ירך אחורית\,
+  כופפי ירך\n\nאת המקטעים רצים בקצב שכתוב\, 
+ לא מהר יותר. בסוף צריך להרגיש שהיה אפשר ל
+ עשות עוד אחד.\n\n== כוח · אחרי הריצה\, 20 דק׳ =
+ =\nחימום · 2 דק׳:\n• מיד אחרי הריצה\, כשהגוף
+  עוד חם\n• 10 נדנודי רגל לכל רגל\, 10 סיבובי 
+ ירך\n\nעיקרי · 2 סבבים:\n• 1. סקוואט (אפשר עם
+  תיק עם בקבוקי מים על הגב): 15\n• 2. לאנג׳ אח
+ ורה: 12 לכל רגל\n• 3. גשר ישבן על רגל אחת: 10 
+ לכל צד\n• 4. עליות על קצות האצבעות על רגל 
+ אחת: 12 לכל צד\n• 5. דדליפט על רגל אחת\, בלי 
+ משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7. פלאנק 
+ צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה בין תרגי
+ לים\, 1–2 דקות בין סבבים\n\nשחרור · 3 דק׳:\n•
+  מתיחות של 30 שניות: שוקיים\, ירך אחורית\, כ
+ ופפי ירך\n\nשבוע קל: 2 סבבים בלבד.\n\nהתוכני
+ ת המלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש14 · קצב מרוץ 6 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w14-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:🏃‍♀️ ש14 · קלה 5 ק״מ + כוח
+DESCRIPTION:פחות ק״מ\, אותה רמת אנרגיה. רגליים 
+ רעננות זו המטרה.\n\n== ריצה קלה · 5 ק״מ קלים 
+ ==\nחימום · 5 דק׳:\n• 3 דקות הליכה מהירה\n• ה
+ קילומטר הראשון הכי לאט\n\nעיקרי:\n• 5 ק״מ ב
+ קצב קל (6:46–7:17 לק״מ)\n• בקצב שיחה כל הדרך. 
+ אם יש ספק\, לאט יותר.\n\nשחרור · 5 דק׳:\n• 5 ד
+ קות הליכה\n• מתיחות של 30 שניות: שוקיים\, י
+ רך אחורית\, כופפי ירך\n\n== כוח · אחרי הריצה
+ \, 20 דק׳ ==\nחימום · 2 דק׳:\n• מיד אחרי הריצה\
+ , כשהגוף עוד חם\n• 10 נדנודי רגל לכל רגל\, 10
+  סיבובי ירך\n\nעיקרי · 2 סבבים:\n• 1. סקוואט 
+ (אפשר עם תיק עם בקבוקי מים על הגב): 15\n• 2. 
+ לאנג׳ אחורה: 12 לכל רגל\n• 3. גשר ישבן על רג
+ ל אחת: 10 לכל צד\n• 4. עליות על קצות האצבעות
+  על רגל אחת: 12 לכל צד\n• 5. דדליפט על רגל אח
+ ת\, בלי משקל: 8 לכל צד\n• 6. פלאנק: 45 שנ׳\n• 7.
+  פלאנק צד: 30 שנ׳ לכל צד\n• 30 שניות מנוחה ב
+ ין תרגילים\, 1–2 דקות בין סבבים\n\nשחרור · 3
+  דק׳:\n• מתיחות של 30 שניות: שוקיים\, ירך אח
+ ורית\, כופפי ירך\n\nשבוע קל: 2 סבבים בלבד.\n\n
+ התוכנית המלאה: https://yonatankazhdan.github.io/half-marathon
+ -plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש14 · קלה 5 ק״מ + כוח
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w14-d6@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:🏃‍♀️ ש14 · יוגה
+DESCRIPTION:פחות ק״מ\, אותה רמת אנרגיה. רגליים 
+ רעננות זו המטרה.\n\n== יוגה · היוגה הרגילה 
+ שלך ==\nמה עושים:\n• היוגה הרגילה שלך\, בכל 
+ סגנון\n• בלי תנוחות שמשאירות את הרגליים 
+ עייפות או כואבות למחרת\n\nערב לפני הריצה 
+ הארוכה: יוגה מצוינת לשחרור\, רק לא עד תשי
+ שות.\n\nהתוכנית המלאה: https://yonatankazhdan.github.io/ha
+ lf-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש14 · יוגה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w15-d0@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:🏃‍♀️ ש15 · קלה 8 ק״מ
+DESCRIPTION:לישון טוב\, לשתות\, ולא לנסות שום ד
+ בר חדש: נעליים\, בגדים ואוכל כמו באימונים
+ .\n\n== ריצה קלה · 8 ק״מ קלים ==\nחימום · 5 דק׳:\
+ n• 3 דקות הליכה מהירה\n• הקילומטר הראשון 
+ הכי לאט\n\nעיקרי:\n• 8 ק״מ בקצב קל (6:46–7:17 ל
+ ק״מ)\n• בקצב שיחה כל הדרך. אם יש ספק\, לאט 
+ יותר.\n\nשחרור · 5 דק׳:\n• 5 דקות הליכה\n• מת
+ יחות של 30 שניות: שוקיים\, ירך אחורית\, כופ
+ פי ירך\n\nריצה קלה ונעימה. אין צורך להתאמץ
+  השבוע.\n\nהתוכנית המלאה: https://yonatankazhdan.github.
+ io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש15 · קלה 8 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w15-d1@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:🏃‍♀️ ש15 · יוגה רגועה
+DESCRIPTION:לישון טוב\, לשתות\, ולא לנסות שום ד
+ בר חדש: נעליים\, בגדים ואוכל כמו באימונים
+ .\n\n== יוגה · יוגה רגועה להתאוששות ==\nמה עו
+ שים:\n• יוגה רגועה: יין\, רסטורטיבית או הא
+ טה\n• להתמקד בירכיים\, ירך אחורית\, שוקיי
+ ם וגב תחתון\n• בלי פאוור יוגה אינטנסיבית
+  ביום הזה\n\nיום אחרי הריצה הארוכה המטרה ה
+ יא שחרור\, לא עוד אימון קשה.\n\nהתוכנית המל
+ אה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש15 · יוגה רגועה
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w15-d2@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:🏃‍♀️ ש15 · קצב מרוץ 5 ק״מ
+DESCRIPTION:לישון טוב\, לשתות\, ולא לנסות שום ד
+ בר חדש: נעליים\, בגדים ואוכל כמו באימונים
+ .\n\n== קצב מרוץ · 2 ק״מ בקצב מרוץ ==\nחימום · 1
+ .5 ק״מ:\n• 1.5 ק״מ ריצה קלה מאוד (6:46–7:17 לק״מ
+ )\n• תרגילי ריצה\, פעמיים 20 מ׳ מכל אחד: הרמ
+ ת ברכיים\, עקב לישבן\, דילוגים\n• 3 האצות ק
+ צרות של 15 שניות\n\nעיקרי:\n• 2 ק״מ בקצב מרו
+ ץ (5:50–6:00 לק״מ)\n• זה אמור להרגיש קל\n\nשחר
+ ור · 1.5 ק״מ:\n• 1.5 ק״מ ריצה קלה\n• 5 דקות הל
+ יכה\n• מתיחות של 30 שניות: שוקיים\, ירך אחו
+ רית\, כופפי ירך\n\nאת המקטעים רצים בקצב שכ
+ תוב\, לא מהר יותר. בסוף צריך להרגיש שהיה א
+ פשר לעשות עוד אחד.\n\nהתוכנית המלאה: https://yo
+ natankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש15 · קצב מרוץ 5 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w15-d4@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:🏃‍♀️ ש15 · קלה 3 ק״מ
+DESCRIPTION:לישון טוב\, לשתות\, ולא לנסות שום ד
+ בר חדש: נעליים\, בגדים ואוכל כמו באימונים
+ .\n\n== קלה + האצות · 3 ק״מ קלים + 4 האצות ==\nחי
+ מום · 5 דק׳:\n• 3 דקות הליכה מהירה\n• הקילו
+ מטר הראשון הכי לאט\n\nעיקרי:\n• 3 ק״מ בקצב 
+ קל (6:46–7:17 לק״מ)\n• בקצב שיחה כל הדרך. אם י
+ ש ספק\, לאט יותר.\n• 4 האצות של 20 שניות בסו
+ ף\, על משטח ישר: מאיצות בהדרגה למהיר וקלי
+ ל. בין האצה להאצה הולכים דקה.\n\nשחרור · 5 ד
+ ק׳:\n• 5 דקות הליכה\n• מתיחות של 30 שניות: ש
+ וקיים\, ירך אחורית\, כופפי ירך\n\nיומיים לפ
+ ני המרוץ. קצר ומשוחרר.\n\nהתוכנית המלאה: htt
+ ps://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש15 · קלה 3 ק״מ
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hm-w15-d5@half-marathon-plan
+DTSTAMP:20261015T202718Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:🏃‍♀️ ש15 · חצי מרתון! 21.1 ק״מ (להזיז 
+ לתאריך המרוץ)
+DESCRIPTION:לישון טוב\, לשתות\, ולא לנסות שום ד
+ בר חדש: נעליים\, בגדים ואוכל כמו באימונים
+ .\n\n== המרוץ! · 21.1 ק״מ ==\nחימום · 20–30 דק׳ לפ
+ ני הזינוק:\n• 5 דקות הליכה\, ואז 5 דקות ריצ
+ ה קלה מאוד\n• 10 נדנודי רגל לכל רגל\n• 3 הא
+ צות קצרות\n\nתוכנית המרוץ · 21.1 ק״מ:\n• ק״מ 
+ 0–5: קצת לאט יותר מקצב מרוץ. הכי קל שאפשר.\
+ n• ק״מ 5–16: קצב מרוץ (5:50–6:00 לק״מ)\n• ק״מ 16
+ –21.1: מה שנשאר בטנק\n• מים בכל תחנה. ג׳ל א
+ חרי 45 דקות\, ואז בערך כל 35 דקות.\n\nאחרי:\n• 
+ 10 דקות הליכה\n• לאכול פחמימות וחלבון בתו
+ ך שעה\n• שבוע אחרי: רק ריצות קלות\n\nשום דב
+ ר חדש ביום המרוץ: אותן נעליים\, בגדים\, אר
+ וחת בוקר וג׳לים כמו בארוכות.\n\nהתוכנית ה
+ מלאה: https://yonatankazhdan.github.io/half-marathon-plan/
+URL:https://yonatankazhdan.github.io/half-marathon-plan/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🏃‍♀️ ש15 · חצי מרתון! 21.1 ק״מ (להז
+ יז לתאריך המרוץ)
+TRIGGER;RELATED=START:PT7H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
